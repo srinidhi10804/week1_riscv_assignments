@@ -1,0 +1,8 @@
+RV32I:
+  - name: ADD
+    mnemonic: ADD
+    opcode: 0b0110011
+
+  - name: SUB
+    mnemonic: SUB
+    opcode: 0b0110011

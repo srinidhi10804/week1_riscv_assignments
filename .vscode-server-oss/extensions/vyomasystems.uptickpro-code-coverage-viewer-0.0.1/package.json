@@ -1,0 +1,67 @@
+{
+	"name": "uptickpro-code-coverage-viewer",
+	"displayName": "UpTickPro-Code coverage viewer",
+	"description": "VS Code extension for code coverage viewer",
+	"version": "0.0.1",
+	"publisher": "vyomasystems",
+	"icon": "images/logo.png",
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"engines": {
+		"vscode": "^1.88.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "uptickpro.code-coverage-viewer",
+				"title": "UpTickPro-Code coverage viewer"
+			}
+		],
+		"menus": {
+			"commandPalette": [
+				{
+					"command": "uptickpro.code-coverage-viewer"
+				}
+			],
+			"explorer/context": [
+				{
+					"when": "resourceExtname == .html",
+					"command": "uptickpro.code-coverage-viewer",
+					"group": "navigation"
+				}
+			],
+			"editor/title": [
+				{
+					"when": "resourceExtname == .html",
+					"command": "uptickpro.code-coverage-viewer",
+					"group": "navigation"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "vscode-test"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.88.0",
+		"@types/mocha": "^10.0.10",
+		"@types/node": "20.x",
+		"eslint": "^9.21.0",
+		"@vscode/test-cli": "^0.0.10",
+		"@vscode/test-electron": "^2.4.1"
+	},
+	"__metadata": {
+		"installedTimestamp": 1755169682305,
+		"targetPlatform": "undefined",
+		"size": 36956
+	}
+}

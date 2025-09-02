@@ -1,0 +1,14 @@
+2025-09-01 10:33:15.187 [info] Extension host with pid 11837 started
+2025-09-01 10:33:15.189 [info] Lock '/home/vsysuser/workspace/.vscode-server-oss/data/User/workspaceStorage/655b8ca8/vscode.lock': Lock acquired.
+2025-09-01 10:33:16.157 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-09-01 10:33:16.690 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-09-01 10:33:16.860 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-09-01 10:33:16.860 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-09-01 10:33:17.283 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-09-01 10:33:18.483 [info] Eager extensions activated
+2025-09-01 10:33:18.551 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-09-01 10:33:18.552 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-09-01 10:33:18.559 [info] ExtensionService#_doActivateExtension vyomasystems.functional-coverage-viewer, startup: false, activationEvent: 'onStartupFinished'
+2025-09-01 10:33:20.647 [info] Extension host terminating: received terminate message from renderer
+2025-09-01 10:33:20.647 [info] Lock '/home/vsysuser/workspace/.vscode-server-oss/data/User/workspaceStorage/655b8ca8/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-09-01 10:33:20.656 [info] Extension host with pid 11837 exiting with code 0

@@ -1,0 +1,233 @@
+2025-09-01 09:15:59.360 [info] 
+
+
+
+
+2025-09-01 09:15:59.390 [info] Extension host agent started.
+2025-09-01 09:16:19.397 [info] [100.96.84.65][03845408][ManagementConnection] New connection established.
+2025-09-01 09:16:19.450 [info] [100.96.84.65][18067256][ExtensionHostConnection] New connection established.
+2025-09-01 09:16:19.772 [info] [100.96.84.65][18067256][ExtensionHostConnection] <30> Launched Extension Host Process.
+2025-09-01 09:16:23.387 [error] [100.96.84.65][8e25141f] Unauthorized client refused: auth mismatch.
+2025-09-01 09:16:25.881 [error] [100.96.84.65][363664e0] Unauthorized client refused: auth mismatch.
+2025-09-01 09:16:26.084 [error] [100.96.84.65][99f9fa13] Unauthorized client refused: auth mismatch.
+2025-09-01 09:16:26.454 [error] [100.96.84.65][c88d75d6] Unauthorized client refused: auth mismatch.
+2025-09-01 09:16:54.180 [info] [100.96.84.65][90073faf][ManagementConnection] New connection established.
+2025-09-01 09:16:54.258 [info] [100.96.84.65][fdfb182a][ExtensionHostConnection] New connection established.
+2025-09-01 09:16:54.264 [info] [100.96.84.65][fdfb182a][ExtensionHostConnection] <423> Launched Extension Host Process.
+2025-09-01 09:16:59.504 [warning] RequestStore#acceptReply was called without receiving a matching request 23
+2025-09-01 09:16:59.505 [warning] RequestStore#acceptReply was called without receiving a matching request 24
+2025-09-01 09:16:59.505 [warning] RequestStore#acceptReply was called without receiving a matching request 25
+2025-09-01 09:16:59.505 [warning] RequestStore#acceptReply was called without receiving a matching request 26
+2025-09-01 09:16:59.505 [warning] RequestStore#acceptReply was called without receiving a matching request 27
+2025-09-01 09:16:59.505 [warning] RequestStore#acceptReply was called without receiving a matching request 28
+2025-09-01 09:16:59.505 [warning] RequestStore#acceptReply was called without receiving a matching request 29
+2025-09-01 09:16:59.505 [warning] RequestStore#acceptReply was called without receiving a matching request 30
+2025-09-01 09:16:59.505 [warning] RequestStore#acceptReply was called without receiving a matching request 31
+2025-09-01 09:16:59.506 [warning] RequestStore#acceptReply was called without receiving a matching request 32
+2025-09-01 09:16:59.506 [warning] RequestStore#acceptReply was called without receiving a matching request 33
+2025-09-01 09:16:59.532 [warning] RequestStore#acceptReply was called without receiving a matching request 34
+2025-09-01 09:16:59.532 [warning] RequestStore#acceptReply was called without receiving a matching request 35
+2025-09-01 09:16:59.532 [warning] RequestStore#acceptReply was called without receiving a matching request 36
+2025-09-01 09:16:59.533 [warning] RequestStore#acceptReply was called without receiving a matching request 37
+2025-09-01 09:16:59.533 [warning] RequestStore#acceptReply was called without receiving a matching request 38
+2025-09-01 09:16:59.533 [warning] RequestStore#acceptReply was called without receiving a matching request 39
+2025-09-01 09:16:59.533 [warning] RequestStore#acceptReply was called without receiving a matching request 40
+2025-09-01 09:16:59.533 [warning] RequestStore#acceptReply was called without receiving a matching request 41
+2025-09-01 09:16:59.533 [warning] RequestStore#acceptReply was called without receiving a matching request 42
+2025-09-01 09:16:59.534 [warning] RequestStore#acceptReply was called without receiving a matching request 43
+2025-09-01 09:16:59.534 [warning] RequestStore#acceptReply was called without receiving a matching request 44
+2025-09-01 09:17:00.552 [warning] RequestStore#acceptReply was called without receiving a matching request 45
+2025-09-01 09:17:00.583 [warning] RequestStore#acceptReply was called without receiving a matching request 46
+2025-09-01 09:17:00.583 [warning] RequestStore#acceptReply was called without receiving a matching request 47
+2025-09-01 09:17:00.583 [warning] RequestStore#acceptReply was called without receiving a matching request 48
+2025-09-01 09:17:00.584 [warning] RequestStore#acceptReply was called without receiving a matching request 49
+2025-09-01 09:17:00.584 [warning] RequestStore#acceptReply was called without receiving a matching request 50
+2025-09-01 09:17:00.584 [warning] RequestStore#acceptReply was called without receiving a matching request 51
+2025-09-01 09:17:00.584 [warning] RequestStore#acceptReply was called without receiving a matching request 52
+2025-09-01 09:17:00.588 [warning] RequestStore#acceptReply was called without receiving a matching request 53
+2025-09-01 09:17:00.588 [warning] RequestStore#acceptReply was called without receiving a matching request 54
+2025-09-01 09:17:00.588 [warning] RequestStore#acceptReply was called without receiving a matching request 55
+2025-09-01 09:17:00.695 [warning] RequestStore#acceptReply was called without receiving a matching request 56
+2025-09-01 09:17:00.696 [warning] RequestStore#acceptReply was called without receiving a matching request 57
+2025-09-01 09:17:00.696 [warning] RequestStore#acceptReply was called without receiving a matching request 58
+2025-09-01 09:17:00.697 [warning] RequestStore#acceptReply was called without receiving a matching request 59
+2025-09-01 09:17:00.697 [warning] RequestStore#acceptReply was called without receiving a matching request 60
+2025-09-01 09:17:00.698 [warning] RequestStore#acceptReply was called without receiving a matching request 61
+2025-09-01 09:17:00.699 [warning] RequestStore#acceptReply was called without receiving a matching request 62
+2025-09-01 09:17:00.699 [warning] RequestStore#acceptReply was called without receiving a matching request 63
+2025-09-01 09:17:00.700 [warning] RequestStore#acceptReply was called without receiving a matching request 64
+2025-09-01 09:17:00.750 [warning] RequestStore#acceptReply was called without receiving a matching request 65
+2025-09-01 09:17:00.750 [warning] RequestStore#acceptReply was called without receiving a matching request 66
+2025-09-01 09:17:01.987 [warning] RequestStore#acceptReply was called without receiving a matching request 67
+2025-09-01 09:17:01.987 [warning] RequestStore#acceptReply was called without receiving a matching request 68
+2025-09-01 09:17:01.988 [warning] RequestStore#acceptReply was called without receiving a matching request 69
+2025-09-01 09:17:01.989 [warning] RequestStore#acceptReply was called without receiving a matching request 70
+2025-09-01 09:17:01.989 [warning] RequestStore#acceptReply was called without receiving a matching request 71
+2025-09-01 09:17:01.992 [warning] RequestStore#acceptReply was called without receiving a matching request 72
+2025-09-01 09:17:01.992 [warning] RequestStore#acceptReply was called without receiving a matching request 73
+2025-09-01 09:17:01.992 [warning] RequestStore#acceptReply was called without receiving a matching request 74
+2025-09-01 09:17:01.993 [warning] RequestStore#acceptReply was called without receiving a matching request 75
+2025-09-01 09:17:01.993 [warning] RequestStore#acceptReply was called without receiving a matching request 76
+2025-09-01 09:17:01.993 [warning] RequestStore#acceptReply was called without receiving a matching request 77
+2025-09-01 09:19:54.390 [warning] RequestStore#acceptReply was called without receiving a matching request 78
+2025-09-01 09:19:54.390 [warning] RequestStore#acceptReply was called without receiving a matching request 79
+2025-09-01 09:19:54.390 [warning] RequestStore#acceptReply was called without receiving a matching request 80
+2025-09-01 09:19:54.390 [warning] RequestStore#acceptReply was called without receiving a matching request 81
+2025-09-01 09:19:54.390 [warning] RequestStore#acceptReply was called without receiving a matching request 82
+2025-09-01 09:19:54.390 [warning] RequestStore#acceptReply was called without receiving a matching request 83
+2025-09-01 09:19:54.391 [warning] RequestStore#acceptReply was called without receiving a matching request 84
+2025-09-01 09:19:54.391 [warning] RequestStore#acceptReply was called without receiving a matching request 85
+2025-09-01 09:19:54.391 [warning] RequestStore#acceptReply was called without receiving a matching request 86
+2025-09-01 09:19:54.391 [warning] RequestStore#acceptReply was called without receiving a matching request 87
+2025-09-01 09:19:54.391 [warning] RequestStore#acceptReply was called without receiving a matching request 88
+2025-09-01 09:28:54.392 [warning] RequestStore#acceptReply was called without receiving a matching request 89
+2025-09-01 09:28:54.393 [warning] RequestStore#acceptReply was called without receiving a matching request 90
+2025-09-01 09:28:54.393 [warning] RequestStore#acceptReply was called without receiving a matching request 91
+2025-09-01 09:28:54.393 [warning] RequestStore#acceptReply was called without receiving a matching request 92
+2025-09-01 09:28:54.393 [warning] RequestStore#acceptReply was called without receiving a matching request 93
+2025-09-01 09:28:54.393 [warning] RequestStore#acceptReply was called without receiving a matching request 94
+2025-09-01 09:28:54.393 [warning] RequestStore#acceptReply was called without receiving a matching request 95
+2025-09-01 09:28:54.393 [warning] RequestStore#acceptReply was called without receiving a matching request 96
+2025-09-01 09:28:54.393 [warning] RequestStore#acceptReply was called without receiving a matching request 97
+2025-09-01 09:28:54.393 [warning] RequestStore#acceptReply was called without receiving a matching request 98
+2025-09-01 09:28:54.393 [warning] RequestStore#acceptReply was called without receiving a matching request 99
+2025-09-01 09:31:23.916 [info] [100.96.84.65][931beca4][ManagementConnection] New connection established.
+2025-09-01 09:31:23.958 [info] [100.96.84.65][8a044761][ExtensionHostConnection] New connection established.
+2025-09-01 09:31:23.965 [info] [100.96.84.65][8a044761][ExtensionHostConnection] <11441> Launched Extension Host Process.
+2025-09-01 09:31:26.681 [warning] RequestStore#acceptReply was called without receiving a matching request 100
+2025-09-01 09:31:26.682 [warning] RequestStore#acceptReply was called without receiving a matching request 101
+2025-09-01 09:31:26.682 [warning] RequestStore#acceptReply was called without receiving a matching request 102
+2025-09-01 09:31:26.682 [warning] RequestStore#acceptReply was called without receiving a matching request 103
+2025-09-01 09:31:26.682 [warning] RequestStore#acceptReply was called without receiving a matching request 104
+2025-09-01 09:31:26.682 [warning] RequestStore#acceptReply was called without receiving a matching request 105
+2025-09-01 09:31:26.685 [warning] RequestStore#acceptReply was called without receiving a matching request 106
+2025-09-01 09:31:26.685 [warning] RequestStore#acceptReply was called without receiving a matching request 107
+2025-09-01 09:31:26.685 [warning] RequestStore#acceptReply was called without receiving a matching request 108
+2025-09-01 09:31:26.686 [warning] RequestStore#acceptReply was called without receiving a matching request 109
+2025-09-01 09:31:26.686 [warning] RequestStore#acceptReply was called without receiving a matching request 110
+2025-09-01 09:31:27.289 [warning] RequestStore#acceptReply was called without receiving a matching request 111
+2025-09-01 09:31:27.289 [warning] RequestStore#acceptReply was called without receiving a matching request 112
+2025-09-01 09:31:27.289 [warning] RequestStore#acceptReply was called without receiving a matching request 113
+2025-09-01 09:31:27.290 [warning] RequestStore#acceptReply was called without receiving a matching request 114
+2025-09-01 09:31:27.290 [warning] RequestStore#acceptReply was called without receiving a matching request 115
+2025-09-01 09:31:27.290 [warning] RequestStore#acceptReply was called without receiving a matching request 116
+2025-09-01 09:31:27.290 [warning] RequestStore#acceptReply was called without receiving a matching request 117
+2025-09-01 09:31:27.290 [warning] RequestStore#acceptReply was called without receiving a matching request 118
+2025-09-01 09:31:27.290 [warning] RequestStore#acceptReply was called without receiving a matching request 119
+2025-09-01 09:31:27.290 [warning] RequestStore#acceptReply was called without receiving a matching request 120
+2025-09-01 09:31:27.290 [warning] RequestStore#acceptReply was called without receiving a matching request 121
+2025-09-01 09:31:28.465 [warning] RequestStore#acceptReply was called without receiving a matching request 122
+2025-09-01 09:31:28.465 [warning] RequestStore#acceptReply was called without receiving a matching request 123
+2025-09-01 09:31:28.466 [warning] RequestStore#acceptReply was called without receiving a matching request 124
+2025-09-01 09:31:28.466 [warning] RequestStore#acceptReply was called without receiving a matching request 125
+2025-09-01 09:31:28.467 [warning] RequestStore#acceptReply was called without receiving a matching request 126
+2025-09-01 09:31:28.467 [warning] RequestStore#acceptReply was called without receiving a matching request 127
+2025-09-01 09:31:28.468 [warning] RequestStore#acceptReply was called without receiving a matching request 128
+2025-09-01 09:31:28.468 [warning] RequestStore#acceptReply was called without receiving a matching request 129
+2025-09-01 09:31:28.469 [warning] RequestStore#acceptReply was called without receiving a matching request 130
+2025-09-01 09:31:28.469 [warning] RequestStore#acceptReply was called without receiving a matching request 131
+2025-09-01 09:31:28.470 [warning] RequestStore#acceptReply was called without receiving a matching request 132
+2025-09-01 09:31:29.086 [warning] RequestStore#acceptReply was called without receiving a matching request 100
+2025-09-01 09:31:29.087 [warning] RequestStore#acceptReply was called without receiving a matching request 101
+2025-09-01 09:31:29.088 [warning] RequestStore#acceptReply was called without receiving a matching request 102
+2025-09-01 09:31:29.088 [warning] RequestStore#acceptReply was called without receiving a matching request 103
+2025-09-01 09:31:29.150 [warning] RequestStore#acceptReply was called without receiving a matching request 104
+2025-09-01 09:31:29.150 [warning] RequestStore#acceptReply was called without receiving a matching request 105
+2025-09-01 09:31:29.150 [warning] RequestStore#acceptReply was called without receiving a matching request 106
+2025-09-01 09:31:29.150 [warning] RequestStore#acceptReply was called without receiving a matching request 107
+2025-09-01 09:31:29.150 [warning] RequestStore#acceptReply was called without receiving a matching request 108
+2025-09-01 09:31:29.150 [warning] RequestStore#acceptReply was called without receiving a matching request 109
+2025-09-01 09:31:29.150 [warning] RequestStore#acceptReply was called without receiving a matching request 110
+2025-09-01 09:31:29.166 [warning] RequestStore#acceptReply was called without receiving a matching request 111
+2025-09-01 09:31:29.184 [warning] RequestStore#acceptReply was called without receiving a matching request 112
+2025-09-01 09:31:29.185 [warning] RequestStore#acceptReply was called without receiving a matching request 113
+2025-09-01 09:31:29.185 [warning] RequestStore#acceptReply was called without receiving a matching request 114
+2025-09-01 09:31:29.185 [warning] RequestStore#acceptReply was called without receiving a matching request 115
+2025-09-01 09:31:29.186 [warning] RequestStore#acceptReply was called without receiving a matching request 116
+2025-09-01 09:31:29.187 [warning] RequestStore#acceptReply was called without receiving a matching request 117
+2025-09-01 09:31:29.189 [warning] RequestStore#acceptReply was called without receiving a matching request 118
+2025-09-01 09:31:29.189 [warning] RequestStore#acceptReply was called without receiving a matching request 119
+2025-09-01 09:31:29.251 [warning] RequestStore#acceptReply was called without receiving a matching request 120
+2025-09-01 09:31:29.252 [warning] RequestStore#acceptReply was called without receiving a matching request 121
+2025-09-01 09:31:29.784 [warning] RequestStore#acceptReply was called without receiving a matching request 122
+2025-09-01 09:31:29.785 [warning] RequestStore#acceptReply was called without receiving a matching request 123
+2025-09-01 09:31:29.785 [warning] RequestStore#acceptReply was called without receiving a matching request 124
+2025-09-01 09:31:29.786 [warning] RequestStore#acceptReply was called without receiving a matching request 125
+2025-09-01 09:31:29.787 [warning] RequestStore#acceptReply was called without receiving a matching request 126
+2025-09-01 09:31:29.787 [warning] RequestStore#acceptReply was called without receiving a matching request 127
+2025-09-01 09:31:29.788 [warning] RequestStore#acceptReply was called without receiving a matching request 128
+2025-09-01 09:31:29.788 [warning] RequestStore#acceptReply was called without receiving a matching request 129
+2025-09-01 09:31:29.789 [warning] RequestStore#acceptReply was called without receiving a matching request 130
+2025-09-01 09:31:29.789 [warning] RequestStore#acceptReply was called without receiving a matching request 131
+2025-09-01 09:31:29.789 [warning] RequestStore#acceptReply was called without receiving a matching request 132
+2025-09-01 09:31:30.684 [warning] RequestStore#acceptReply was called without receiving a matching request 133
+2025-09-01 09:31:30.686 [warning] RequestStore#acceptReply was called without receiving a matching request 134
+2025-09-01 09:31:30.686 [warning] RequestStore#acceptReply was called without receiving a matching request 135
+2025-09-01 09:31:30.687 [warning] RequestStore#acceptReply was called without receiving a matching request 136
+2025-09-01 09:31:30.687 [warning] RequestStore#acceptReply was called without receiving a matching request 137
+2025-09-01 09:31:30.687 [warning] RequestStore#acceptReply was called without receiving a matching request 138
+2025-09-01 09:31:30.687 [warning] RequestStore#acceptReply was called without receiving a matching request 139
+2025-09-01 09:31:30.751 [warning] RequestStore#acceptReply was called without receiving a matching request 140
+2025-09-01 09:31:30.752 [warning] RequestStore#acceptReply was called without receiving a matching request 141
+2025-09-01 09:31:30.752 [warning] RequestStore#acceptReply was called without receiving a matching request 142
+2025-09-01 09:31:30.753 [warning] RequestStore#acceptReply was called without receiving a matching request 143
+2025-09-01 09:31:30.866 [warning] RequestStore#acceptReply was called without receiving a matching request 133
+2025-09-01 09:31:30.866 [warning] RequestStore#acceptReply was called without receiving a matching request 134
+2025-09-01 09:31:30.866 [warning] RequestStore#acceptReply was called without receiving a matching request 135
+2025-09-01 09:31:30.867 [warning] RequestStore#acceptReply was called without receiving a matching request 136
+2025-09-01 09:31:30.867 [warning] RequestStore#acceptReply was called without receiving a matching request 137
+2025-09-01 09:31:30.867 [warning] RequestStore#acceptReply was called without receiving a matching request 138
+2025-09-01 09:31:30.868 [warning] RequestStore#acceptReply was called without receiving a matching request 139
+2025-09-01 09:31:30.868 [warning] RequestStore#acceptReply was called without receiving a matching request 140
+2025-09-01 09:31:30.868 [warning] RequestStore#acceptReply was called without receiving a matching request 141
+2025-09-01 09:31:30.868 [warning] RequestStore#acceptReply was called without receiving a matching request 142
+2025-09-01 09:31:30.881 [warning] RequestStore#acceptReply was called without receiving a matching request 143
+2025-09-01 09:31:38.002 [info] [100.96.84.65][931beca4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-09-01 09:31:38.097 [info] [100.96.84.65][8a044761][ExtensionHostConnection] <11441> Extension Host Process exited with code: 0, signal: null.
+2025-09-01 10:04:07.945 [info] [100.96.84.65][03845408][ManagementConnection] The client has reconnected.
+2025-09-01 10:04:08.094 [info] [100.96.84.65][90073faf][ManagementConnection] The client has reconnected.
+2025-09-01 10:04:08.193 [info] [100.96.84.65][18067256][ExtensionHostConnection] The client has reconnected.
+2025-09-01 10:04:08.334 [info] [100.96.84.65][fdfb182a][ExtensionHostConnection] The client has reconnected.
+2025-09-01 10:33:00.687 [info] [100.96.84.65][90073faf][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-09-01 10:33:00.850 [info] [100.96.84.65][fdfb182a][ExtensionHostConnection] <423> Extension Host Process exited with code: 0, signal: null.
+2025-09-01 10:33:06.862 [info] [100.96.84.65][03845408][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-09-01 10:33:06.938 [info] [100.96.84.65][18067256][ExtensionHostConnection] <30> Extension Host Process exited with code: 0, signal: null.
+2025-09-01 10:33:10.151 [info] [100.96.84.65][7739f3b4][ManagementConnection] New connection established.
+2025-09-01 10:33:10.156 [info] [100.96.84.65][a0590831][ExtensionHostConnection] New connection established.
+2025-09-01 10:33:10.164 [info] [100.96.84.65][a0590831][ExtensionHostConnection] <11837> Launched Extension Host Process.
+2025-09-01 10:33:20.628 [info] [100.96.84.65][7739f3b4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-09-01 10:33:20.672 [info] [100.96.84.65][a0590831][ExtensionHostConnection] <11837> Extension Host Process exited with code: 0, signal: null.
+2025-09-02 03:24:50.977 [info] [100.96.84.65][19037c0e][ExtensionHostConnection] New connection established.
+2025-09-02 03:24:50.993 [info] [100.96.84.65][19037c0e][ExtensionHostConnection] <11875> Launched Extension Host Process.
+2025-09-02 03:24:50.996 [info] [100.96.84.65][46953113][ManagementConnection] New connection established.
+2025-09-02 03:38:02.395 [info] [100.96.84.65][46953113][ManagementConnection] The client has reconnected.
+2025-09-02 03:38:02.526 [info] [100.96.84.65][19037c0e][ExtensionHostConnection] The client has reconnected.
+2025-09-02 04:32:53.068 [info] [100.96.84.65][46953113][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-09-02 04:33:40.503 [info] [100.96.84.65][46953113][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-09-02 04:33:40.504 [info] [100.96.84.65][46953113][ManagementConnection] The client has reconnected.
+2025-09-02 04:33:41.140 [info] [100.96.84.65][19037c0e][ExtensionHostConnection] The client has reconnected.
+2025-09-02 04:35:08.524 [info] [100.96.84.65][46953113][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-09-02 05:20:13.197 [info] [100.96.84.65][46953113][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-09-02 05:20:13.198 [info] [100.96.84.65][46953113][ManagementConnection] The client has reconnected.
+2025-09-02 05:20:14.116 [info] [100.96.84.65][19037c0e][ExtensionHostConnection] The client has reconnected.
+2025-09-02 06:13:02.971 [info] [100.96.84.65][46953113][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-09-02 06:13:03.181 [info] [100.96.84.65][19037c0e][ExtensionHostConnection] <11875> Extension Host Process exited with code: 0, signal: null.
+2025-09-02 06:54:22.047 [info] [100.96.84.65][bea14765][ExtensionHostConnection] New connection established.
+2025-09-02 06:54:22.060 [info] [100.96.84.65][bea14765][ExtensionHostConnection] <11936> Launched Extension Host Process.
+2025-09-02 06:54:22.064 [info] [100.96.84.65][123b66cd][ManagementConnection] New connection established.
+2025-09-02 06:54:44.840 [info] [100.96.84.65][123b66cd][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-09-02 06:54:44.951 [info] [100.96.84.65][bea14765][ExtensionHostConnection] <11936> Extension Host Process exited with code: 0, signal: null.
+2025-09-02 06:58:53.876 [info] [100.96.84.65][f9c29f08][ManagementConnection] New connection established.
+2025-09-02 06:58:53.933 [info] [100.96.84.65][fc4a08c3][ExtensionHostConnection] New connection established.
+2025-09-02 06:58:53.940 [info] [100.96.84.65][fc4a08c3][ExtensionHostConnection] <12015> Launched Extension Host Process.
+2025-09-02 07:25:30.551 [info] [100.96.84.65][fc4a08c3][ExtensionHostConnection] The client has reconnected.
+2025-09-02 07:32:25.983 [info] [100.96.84.65][fc4a08c3][ExtensionHostConnection] The client has reconnected.
+2025-09-02 07:33:07.082 [info] [100.96.84.65][fc4a08c3][ExtensionHostConnection] The client has reconnected.
+2025-09-02 07:33:27.460 [info] [100.96.84.65][fc4a08c3][ExtensionHostConnection] The client has reconnected.
+2025-09-02 07:33:41.486 [info] [100.96.84.65][f9c29f08][ManagementConnection] The client has reconnected.
+2025-09-02 07:33:41.650 [info] [100.96.84.65][fc4a08c3][ExtensionHostConnection] The client has reconnected.
+2025-09-02 07:34:15.682 [info] [100.96.84.65][f9c29f08][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-09-02 08:29:35.637 [info] [100.96.84.65][f9c29f08][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-09-02 08:29:35.640 [info] [100.96.84.65][fc4a08c3][ExtensionHostConnection] The client has reconnected.
+2025-09-02 08:29:35.643 [info] [100.96.84.65][f9c29f08][ManagementConnection] The client has reconnected.
+2025-09-02 09:18:49.871 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

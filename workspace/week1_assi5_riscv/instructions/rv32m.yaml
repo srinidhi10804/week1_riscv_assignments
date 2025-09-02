@@ -1,0 +1,12 @@
+RV32M:
+  - name: MUL
+    mnemonic: MUL
+    opcode: 0b0110011
+    funct3: 0b000
+    funct7: 0b0000001
+
+  - name: DIV
+    mnemonic: DIV
+    opcode: 0b0110011
+    funct3: 0b100
+    funct7: 0b0000001

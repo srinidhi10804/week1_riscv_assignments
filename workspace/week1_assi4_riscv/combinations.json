@@ -1,0 +1,26 @@
+{
+  "RV32I": [
+    {
+      "opcode": 51,
+      "funct3": 0,
+      "funct7": 0
+    },
+    {
+      "opcode": 51,
+      "funct3": 0,
+      "funct7": 32
+    }
+  ],
+  "RV32M": [
+    {
+      "opcode": 51,
+      "funct3": 0,
+      "funct7": 1
+    },
+    {
+      "opcode": 51,
+      "funct3": 4,
+      "funct7": 1
+    }
+  ]
+}

@@ -1,0 +1,1008 @@
+<UCIS xmlns:ucis="http://www.w3.org/2001/XMLSchema-instance" writtenBy="vsysuser" writtenTime="2025-01-21T00:00:00" ucisVersion="1.0">
+  <sourceFiles fileName="__null__file__" id="1"/>
+  <historyNodes historyNodeId="0" logicalName="dummy" physicalName="dummy" kind="dummy" testStatus="true" simtime="0" timeunit="0" runCwd="" cpuTime="0" seed="0" cmd="" args="" date="2025-01-21T14:17:16" userName="dummy" toolCategory="unknown" ucisVersion="1.0" vendorId="unknown" vendorTool="PyUCIS" vendorToolVersion="unknown"/>
+  <instanceCoverages name="cg_inst" key="0">
+    <id file="1" line="1" inlineCount="1"/>
+    <covergroupCoverage>
+      <cgInstance name="my_covergroup" key="0">
+        <options/>
+        <cgId cgName="my_covergroup" moduleName="my_covergroup">
+          <cginstSourceId file="1" line="1" inlineCount="1"/>
+          <cgSourceId file="1" line="1" inlineCount="1"/>
+        </cgId>
+        <coverpoint name="control_value" key="0">
+          <options/>
+          <coverpointBin name="Interrupts OFF" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="15"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="Interrupts ON - Rise and fall " type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="16"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="Interrupts ON - Rise " type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="17"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="Interrupts ON - FALL " type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="9"/>
+            </range>
+          </coverpointBin>
+        </coverpoint>
+        <coverpoint name="time_period" key="0">
+          <options/>
+          <coverpointBin name="time_period[0]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[1]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[2]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[3]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[4]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[5]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="3"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[6]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[7]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[8]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[9]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[10]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[11]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[12]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[13]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[14]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[15]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[16]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[17]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="3"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[18]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[19]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[20]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[21]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[22]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[23]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[24]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[25]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[26]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[27]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[28]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[29]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[30]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[31]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[32]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[33]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[34]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[35]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[36]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[37]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[38]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[39]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[40]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="3"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[41]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[42]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[43]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[44]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[45]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[46]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[47]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[48]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[49]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[50]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[51]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[52]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[53]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[54]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[55]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[56]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[57]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[58]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[59]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[60]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[61]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[62]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="time_period[63]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+        </coverpoint>
+        <coverpoint name="duty_cycle" key="0">
+          <options/>
+          <coverpointBin name="duty_cycle[0]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="4"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[1]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[2]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="3"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[3]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="3"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[4]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="3"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[5]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="3"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[6]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="4"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[7]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[8]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="6"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[9]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[10]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[11]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[12]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="3"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[13]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[14]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[15]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[16]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[17]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[18]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[19]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[20]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[21]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[22]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[23]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[24]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[25]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[26]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[27]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[28]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[29]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[30]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[31]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[32]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[33]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[34]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[35]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[36]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[37]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="3"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[38]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[39]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[40]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[41]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[42]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[43]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[44]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[45]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[46]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[47]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[48]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[49]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[50]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[51]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[52]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[53]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[54]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[55]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[56]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[57]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[58]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[59]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[60]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[61]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[62]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="duty_cycle[63]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+        </coverpoint>
+        <coverpoint name="delay_cycle" key="0">
+          <options/>
+          <coverpointBin name="delay_cycle[0]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[1]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[2]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[3]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[4]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="3"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[5]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[6]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[7]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[8]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[9]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[10]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="4"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[11]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[12]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[13]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[14]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[15]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[16]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[17]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[18]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[19]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[20]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[21]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[22]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[23]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[24]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[25]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[26]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[27]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[28]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[29]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[30]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[31]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[32]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[33]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[34]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[35]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[36]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="3"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[37]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[38]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[39]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[40]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[41]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[42]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[43]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[44]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[45]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[46]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[47]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="3"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[48]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[49]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[50]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[51]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[52]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="2"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[53]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[54]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[55]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[56]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[57]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[58]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[59]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[60]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="5"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[61]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[62]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="1"/>
+            </range>
+          </coverpointBin>
+          <coverpointBin name="delay_cycle[63]" type="bins" key="0">
+            <range from="-1" to="-1">
+              <contents coverageCount="0"/>
+            </range>
+          </coverpointBin>
+        </coverpoint>
+      </cgInstance>
+    </covergroupCoverage>
+  </instanceCoverages>
+</UCIS>

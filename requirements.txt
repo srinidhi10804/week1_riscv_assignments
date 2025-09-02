@@ -1,0 +1,17 @@
+pip
+wheel
+setuptools
+twine
+click
+pyyaml
+coloredlogs
+pytest
+pytest-html
+pytest-xdist
+cython
+cocotb==1.9.2
+cocotb_coverage
+cocotb_bus
+reporg
+envyaml
+psutil

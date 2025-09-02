@@ -1,0 +1,187 @@
+2025-09-02 06:59:00.198 [info] [main] Log level: Info
+2025-09-02 06:59:00.198 [info] [main] Validating found git in: "git"
+2025-09-02 06:59:00.198 [info] [main] Using git "2.43.0" from "git"
+2025-09-02 06:59:00.198 [info] [Model][doInitialScan] Initial repository scan started
+2025-09-02 06:59:00.198 [info] > git rev-parse --show-toplevel [80ms]
+2025-09-02 06:59:00.198 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 06:59:00.198 [info] > git rev-parse --show-toplevel [7ms]
+2025-09-02 06:59:00.198 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 06:59:00.198 [info] > git rev-parse --show-toplevel [4ms]
+2025-09-02 06:59:00.198 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 06:59:00.198 [info] > git rev-parse --show-toplevel [2ms]
+2025-09-02 06:59:00.198 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 06:59:00.198 [info] > git rev-parse --show-toplevel [82ms]
+2025-09-02 06:59:00.198 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 06:59:00.198 [info] > git rev-parse --show-toplevel [4ms]
+2025-09-02 06:59:00.198 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 06:59:00.198 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-09-02 06:59:00.587 [info] > git rev-parse --show-toplevel [4ms]
+2025-09-02 06:59:00.587 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 06:59:00.784 [info] > git rev-parse --show-toplevel [80ms]
+2025-09-02 06:59:00.784 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 06:59:01.106 [info] > git rev-parse --show-toplevel [6ms]
+2025-09-02 06:59:01.106 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 06:59:01.388 [info] > git rev-parse --show-toplevel [7ms]
+2025-09-02 06:59:01.388 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 06:59:02.589 [info] > git rev-parse --show-toplevel [3ms]
+2025-09-02 06:59:02.589 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 06:59:02.601 [info] > git rev-parse --show-toplevel [2ms]
+2025-09-02 06:59:02.601 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 06:59:04.786 [info] > git rev-parse --show-toplevel [82ms]
+2025-09-02 06:59:04.786 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 07:01:36.298 [info] > git rev-parse --show-toplevel [3ms]
+2025-09-02 07:01:36.298 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 07:01:46.381 [info] > git rev-parse --show-toplevel [2ms]
+2025-09-02 07:01:46.381 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 07:01:58.012 [info] > git rev-parse --show-toplevel [2ms]
+2025-09-02 07:01:58.013 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 07:02:05.362 [info] > git rev-parse --show-toplevel [2ms]
+2025-09-02 07:02:05.362 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 07:02:13.672 [info] > git rev-parse --show-toplevel [3ms]
+2025-09-02 07:02:13.672 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 07:03:21.044 [info] > git rev-parse --show-toplevel [2ms]
+2025-09-02 07:03:21.044 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 07:03:44.854 [info] > git rev-parse --show-toplevel [3ms]
+2025-09-02 07:03:44.854 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 07:08:48.163 [info] > git rev-parse --show-toplevel [180ms]
+2025-09-02 07:08:48.164 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 07:11:54.252 [info] > git rev-parse --show-toplevel [460ms]
+2025-09-02 07:11:54.254 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 07:12:23.761 [info] > git rev-parse --show-toplevel [372ms]
+2025-09-02 07:12:23.761 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 07:22:44.052 [info] > git rev-parse --show-toplevel [166ms]
+2025-09-02 07:22:44.088 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 07:25:51.301 [info] > git rev-parse --show-toplevel [2708ms]
+2025-09-02 07:25:51.349 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 07:25:54.188 [info] > git rev-parse --show-toplevel [2805ms]
+2025-09-02 07:25:54.188 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 07:25:56.986 [info] > git rev-parse --show-toplevel [2785ms]
+2025-09-02 07:25:56.986 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 08:33:46.294 [info] > git rev-parse --show-toplevel [191ms]
+2025-09-02 08:33:46.302 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 08:34:49.695 [info] > git rev-parse --show-toplevel [108ms]
+2025-09-02 08:34:49.885 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 08:36:47.782 [info] > git rev-parse --show-toplevel [27ms]
+2025-09-02 08:36:47.782 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 08:37:52.786 [info] > git rev-parse --show-toplevel [91ms]
+2025-09-02 08:37:52.786 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 08:40:37.287 [info] > git rev-parse --show-toplevel [19ms]
+2025-09-02 08:40:37.288 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 08:43:28.878 [info] > git rev-parse --show-toplevel [3ms]
+2025-09-02 08:43:28.878 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 08:44:47.819 [info] > git rev-parse --show-toplevel [3ms]
+2025-09-02 08:44:47.819 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 08:49:19.695 [info] > git rev-parse --show-toplevel [3ms]
+2025-09-02 08:49:19.696 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 08:49:20.991 [info] > git rev-parse --show-toplevel [3ms]
+2025-09-02 08:49:20.991 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 08:49:22.628 [info] > git rev-parse --show-toplevel [2ms]
+2025-09-02 08:49:22.628 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 08:49:26.119 [info] > git rev-parse --show-toplevel [2ms]
+2025-09-02 08:49:26.119 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 08:49:29.580 [info] > git rev-parse --show-toplevel [2ms]
+2025-09-02 08:49:29.580 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 08:49:33.163 [info] > git rev-parse --show-toplevel [3ms]
+2025-09-02 08:49:33.163 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 08:49:35.660 [info] > git rev-parse --show-toplevel [3ms]
+2025-09-02 08:49:35.660 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 09:13:23.486 [info] > git rev-parse --show-toplevel [124ms]
+2025-09-02 09:13:23.486 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 09:16:24.486 [info] > git rev-parse --show-toplevel [224ms]
+2025-09-02 09:16:24.487 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 09:16:30.693 [info] > git rev-parse --show-toplevel [34ms]
+2025-09-02 09:16:30.962 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [73ms]
+2025-09-02 09:16:31.190 [info] [Model][openRepository] Opened repository (path): /home/vsysuser/workspace/week1_riscv_assignments
+2025-09-02 09:16:31.190 [info] [Model][openRepository] Opened repository (real path): /home/vsysuser/workspace/week1_riscv_assignments
+2025-09-02 09:16:31.190 [info] [Model][openRepository] Opened repository (kind): repository
+2025-09-02 09:16:31.256 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-02 09:16:31.357 [info] > git config --get commit.template [8ms]
+2025-09-02 09:16:31.483 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [85ms]
+2025-09-02 09:16:31.487 [warning] [Git][getBranch] No such branch: master
+2025-09-02 09:16:31.686 [info] > git status -z -uall [103ms]
+2025-09-02 09:16:31.692 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-09-02 09:16:31.952 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-02 09:16:31.989 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [126ms]
+2025-09-02 09:16:31.989 [warning] [Git][getBranch] No such branch: master
+2025-09-02 09:16:31.992 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-09-02 09:16:32.055 [info] > git config --get commit.template [68ms]
+2025-09-02 09:16:32.182 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [27ms]
+2025-09-02 09:16:32.182 [warning] [Git][getBranch] No such branch: master
+2025-09-02 09:16:32.352 [info] > git status -z -uall [102ms]
+2025-09-02 09:16:32.356 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-09-02 09:16:36.187 [info] > git check-ignore -v -z --stdin [4ms]
+2025-09-02 09:18:06.187 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-02 09:18:06.205 [info] > git config --get commit.template [10ms]
+2025-09-02 09:18:06.206 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-02 09:18:06.206 [warning] [Git][getBranch] No such branch: main
+2025-09-02 09:18:06.290 [info] > git status -z -uall [75ms]
+2025-09-02 09:18:06.292 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-09-02 09:18:06.304 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-02 09:18:06.304 [warning] [Git][getBranch] No such branch: main
+2025-09-02 09:18:06.305 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2025-09-02 09:18:13.282 [info] > git rev-parse --show-toplevel [3ms]
+2025-09-02 09:18:13.282 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 09:18:34.260 [info] > git rev-parse --show-toplevel [2ms]
+2025-09-02 09:18:34.260 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-09-02 09:18:50.885 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-02 09:18:50.891 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/vsysuser/workspace/week1_riscv_assignments/.git/HEAD'
+2025-09-02 09:18:50.902 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/vsysuser/workspace/week1_riscv_assignments/.git/config'
+2025-09-02 09:18:50.905 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-02 09:18:50.917 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/vsysuser/workspace/week1_riscv_assignments/.git/HEAD'
+2025-09-02 09:18:50.926 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/vsysuser/workspace/week1_riscv_assignments/.git/config'
+2025-09-02 09:20:43.259 [info] > git rev-parse --show-toplevel [5ms]
+2025-09-02 09:20:43.452 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [97ms]
+2025-09-02 09:20:43.661 [info] [Model][openRepository] Opened repository (path): /home/vsysuser/workspace
+2025-09-02 09:20:43.661 [info] [Model][openRepository] Opened repository (real path): /home/vsysuser/workspace
+2025-09-02 09:20:43.661 [info] [Model][openRepository] Opened repository (kind): repository
+2025-09-02 09:20:43.687 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-02 09:20:43.987 [info] [Git][getRemotes] No remotes found in the git config file
+2025-09-02 09:20:44.053 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [65ms]
+2025-09-02 09:20:44.054 [warning] [Git][getBranch] No such branch: master
+2025-09-02 09:20:44.054 [info] > git config --get commit.template [194ms]
+2025-09-02 09:20:44.355 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [97ms]
+2025-09-02 09:20:44.960 [info] > git status -z -uall [806ms]
+2025-09-02 09:20:46.864 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-02 09:20:56.851 [info] > git check-ignore -v -z --stdin [9892ms]
+2025-09-02 09:20:56.863 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10010ms]
+2025-09-02 09:20:56.886 [warning] [Git][getBranch] No such branch: master
+2025-09-02 09:20:56.887 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-09-02 09:20:57.784 [info] > git config --get commit.template [1022ms]
+2025-09-02 09:20:58.256 [info] [Git][getRemotes] No remotes found in the git config file
+2025-09-02 09:20:58.754 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [498ms]
+2025-09-02 09:20:58.757 [warning] [Git][getBranch] No such branch: master
+2025-09-02 09:20:59.281 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [313ms]
+2025-09-02 09:20:59.557 [info] > git status -z -uall [699ms]
+2025-09-02 09:21:04.056 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-02 09:21:04.372 [info] > git config --get commit.template [306ms]
+2025-09-02 09:21:04.571 [info] [Git][getRemotes] No remotes found in the git config file
+2025-09-02 09:21:04.884 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [313ms]
+2025-09-02 09:21:04.885 [warning] [Git][getBranch] No such branch: master
+2025-09-02 09:21:05.091 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [32ms]
+2025-09-02 09:21:05.287 [info] > git status -z -uall [327ms]
+2025-09-02 09:21:18.487 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-02 09:21:18.751 [info] [Git][getRemotes] No remotes found in the git config file
+2025-09-02 09:21:18.754 [info] > git config --get commit.template [165ms]
+2025-09-02 09:21:18.756 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-09-02 09:21:18.760 [warning] [Git][getBranch] No such branch: master
+2025-09-02 09:21:18.952 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [61ms]
+2025-09-02 09:21:19.483 [info] > git status -z -uall [695ms]
+2025-09-02 09:21:36.749 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-02 09:21:37.691 [info] > git config --get commit.template [834ms]
+2025-09-02 09:21:38.262 [info] [Git][getRemotes] No remotes found in the git config file
+2025-09-02 09:21:38.986 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [724ms]
+2025-09-02 09:21:38.987 [warning] [Git][getBranch] No such branch: master
+2025-09-02 09:21:39.662 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [472ms]
+2025-09-02 09:21:40.152 [info] > git status -z -uall [1068ms]
+2025-09-02 09:21:56.066 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-02 09:21:56.459 [info] > git config --get commit.template [376ms]
+2025-09-02 09:21:57.592 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [628ms]
+2025-09-02 09:21:57.592 [warning] [Git][getBranch] No such branch: master
+2025-09-02 09:21:57.853 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [97ms]
+2025-09-02 09:21:58.463 [info] > git status -z -uall [781ms]
+2025-09-02 09:22:05.551 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-02 09:22:05.670 [info] > git config --get commit.template [109ms]
+2025-09-02 09:22:05.864 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [93ms]
+2025-09-02 09:22:05.864 [warning] [Git][getBranch] No such branch: master
+2025-09-02 09:22:06.050 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [94ms]
+2025-09-02 09:22:06.181 [info] > git status -z -uall [291ms]

@@ -1,0 +1,12 @@
+RV32M:
+  - name: MUL
+    mnemonic: MUL
+    opcode: 0b0110011
+
+  - name: DIV
+    mnemonic: DIV
+    opcode: 0b0110011
+
+  - name: REM
+    mnemonic: REM
+    opcode: 0b0110011

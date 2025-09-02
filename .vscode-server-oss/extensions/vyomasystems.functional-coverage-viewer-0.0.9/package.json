@@ -1,0 +1,85 @@
+{
+	"name": "functional-coverage-viewer",
+	"displayName": "Functional Coverage Viewer",
+	"description": "VS Code extension for functional coverage viewer",
+	"version": "0.0.9",
+	"publisher": "vyomasystems",
+	"icon": "images/logo.png",
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"homepage": "https://vyomasystems.com",
+	"engines": {
+		"vscode": "^1.74.0"
+	},
+	"categories": [
+		"Other",
+		"Visualization"
+	],
+	"keywords": [
+		"coverage",
+		"functional",
+		"verification",
+		"ucis"
+	],
+	"activationEvents": [
+		"onCommand:pyucis-viewer.openViewer",
+		"onStartupFinished"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "pyucis-viewer.openViewer",
+				"title": "Open Functional Coverage Viewer",
+				"category": "Functional Coverage",
+				"icon": "$(file-text)"
+			}
+		],
+		"menus": {
+			"commandPalette": [
+				{
+					"command": "pyucis-viewer.openViewer"
+				}
+			],
+			"explorer/context": [
+				{
+					"when": "resourceExtname == .xml",
+					"command": "pyucis-viewer.openViewer",
+					"group": "navigation"
+				}
+			],
+			"editor/title": [
+				{
+					"when": "resourceExtname == .xml",
+					"command": "pyucis-viewer.openViewer",
+					"group": "navigation"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"dependencies": {
+		"xml2js": "^0.6.2"
+	},
+	"devDependencies": {
+		"@types/mocha": "^10.0.6",
+		"@types/node": "18.x",
+		"@types/vscode": "^1.74.0",
+		"@vscode/test-cli": "^0.0.4",
+		"@vscode/test-electron": "^2.3.8",
+		"eslint": "^8.56.0",
+		"typescript": "^5.3.3"
+	},
+	"license": "MIT",
+	"__metadata": {
+		"installedTimestamp": 1755169682456,
+		"targetPlatform": "undefined",
+		"size": 3749494
+	}
+}

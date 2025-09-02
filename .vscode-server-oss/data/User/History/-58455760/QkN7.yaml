@@ -1,0 +1,11 @@
+- name: ADD
+  mnemonic: ADD
+  opcode: 0b0110011
+  funct3: 0b000
+  funct7: 0b0000000
+
+- name: SUB
+  mnemonic: SUB
+  opcode: 0b0110011
+  funct3: 0b000
+  funct7: 0b0100000
