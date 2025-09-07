@@ -1,9 +1,11 @@
 WEEK 1 WORKS 
+
 Linux Commands Tried:
+
 //Assignment 1 : Print All Opcodes
 cd ~ mkdir -p workspace/print_opcodes/opcodes cd workspace/print_opcodes code print_opcodes.py python3 print_opcodes.py cat all_opcodes.txt
 
-//Assignment 2 : Opcode Search
+//Assignment 2 : Opcode Search 
 cd ~ mkdir -p workspace/search_opcodes/opcodes cd workspace/search_opcodes code search_op.py python3 search_op.py add --ignore-case cat search.json python3 search_op.py mul --ignore-case python3 search_op.py sub python3 search_op.py "^D" --ignore-case --regex
 
 //Assignment 3: Count instructions per extension
