@@ -1,6 +1,6 @@
 WEEK 1 WORKS 
 
-Linux Commands Tried:
+🐧Linux Commands Tried:
 
 //Assignment 1 : Print All Opcodes
 cd ~ mkdir -p workspace/print_opcodes/opcodes cd workspace/print_opcodes code print_opcodes.py python3 print_opcodes.py cat all_opcodes.txt
@@ -17,10 +17,18 @@ cd ~ mkdir -p workspace/list_combinations/opcodes cd workspace/list_combinations
 //Assignment 5: Instruction frequency by opcode value
 cd ~ mkdir -p workspace/opcode_frequencies/opcodes cd workspace/opcode_frequencies code opcode_frequencies.py python3 opcode_frequencies.py cat opcode_frequencies.txt
 
-Git Commands Tried :
+🐙 Git Commands Tried :
 git config --global user.name "srinidhi10804" 
 git config --global user.email "srinidhi1804@gmail.com" 
 git init git remote add origin https://github.com/srinidhi10804/week1_riscv_assignments.git 
 git remote -v git add . git commit -m "Add all RISC V Assignments with all files"
 git push -u origin main git status git log --oneline
+
+🐍Python Codes checked in and their uses :
+
+print_opcodes.py → Parses YAML opcode files, extracts all mnemonics, and saves them into all_opcodes.txt.
+search_op.py → Searches for mnemonics in opcode YAML files (supports case-insensitive and regex search) and stores matches in search.json.
+count_extensions.py → Counts instructions under each ISA extension (e.g., RV32I, RV64I) and outputs results into extension_counts.csv.
+list_combinations.py → Extracts unique (opcode, funct3, funct7) combinations grouped by extension, saving them into combinations.json.
+opcode_frequencies.py → Finds frequency of instructions sharing the same opcode value and writes results into opcode_frequencies.txt.
 
