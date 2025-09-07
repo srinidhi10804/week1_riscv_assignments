@@ -1,3 +1,4 @@
+WEEK 1 WORKS 
 Linux Commands Tried:
 //Assignment 1 : Print All Opcodes
 cd ~ mkdir -p workspace/print_opcodes/opcodes cd workspace/print_opcodes code print_opcodes.py python3 print_opcodes.py cat all_opcodes.txt
