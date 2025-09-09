@@ -1,0 +1,22 @@
+Week 2 - Linux Commands practiced in Labex.io with their uses
+
+User and Group Information
+
+echo → Displays a line of text or a variable value.
+whoami → Displays the current username.
+id → Shows detailed user and group information (UID, GID, groups).
+sudo apt install htop → Installs the htop system monitoring tool.
+htop → Interactive system monitor for processes and resource usage.
+
+File Operations
+
+cd → Changes the current working directory.
+pwd → Displays the full path of the current working directory.
+touch → Creates an empty file or updates the timestamp of an existing file.
+mkdir → Creates a new directory.
+ls → Lists the contents of a directory (use options like -l, -a, -h for more details).
+cp → Copies files or directories.
+mv → Moves or renames files and directories.
+rm → Removes (deletes) files (be careful with this as it’s permanent).
+rmdir → Removes empty directories.
+
