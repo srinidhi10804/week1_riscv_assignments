@@ -1,0 +1,38 @@
+Python Concepts  Practiced along with Their Uses ( Platform used : Hackerrank )
+
+1. Hello World
+Concept: The first program to verify correct setup.
+Use: Confirms that the environment is working and demonstrates basic syntax for output.
+
+2. Python If-Else
+Concept: Conditional statements for decision-making.
+Use: Executes different code based on conditions (e.g., validation, branching logic).
+
+3. Arithmetic Operators
+Concept: Operators for basic mathematical operations.
+Use: Performs calculations such as addition, subtraction, and multiplication.
+
+4. Division
+Concept: Regular division and floor division.
+Use: Used for calculations requiring precision or integer results.
+
+5. Loops
+Concept: Iteration over sequences using for or while loops.
+Use: Repeats actions or processes items in data structures (e.g., lists, ranges).
+
+6. Write a Function
+Concept: Creating reusable blocks of code using def.
+Use: Encapsulates logic for reuse, improving code organization and modularity.
+
+7. Print a Function
+Concept: Output information to the console using print().
+Use: Displays data, debugging information, or results to the user.
+
+8. List Comprehension
+Concept: A concise way to create lists using a single line.
+Use: Simplifies code for generating, transforming, or filtering data.
+
+9. Find the Runner-Up Score in Arrays
+Concept: Identifying the second-highest unique value in an array.
+
+Use: Finds the runner-up in ranking systems or competitions.
