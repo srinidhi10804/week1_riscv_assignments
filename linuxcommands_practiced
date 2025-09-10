@@ -20,3 +20,14 @@ mv → Moves or renames files and directories.
 rm → Removes (deletes) files (be careful with this as it’s permanent).
 rmdir → Removes empty directories.
 
+File Contents and Comparison
+
+cat → Displays the entire contents of a file.
+cat -n → Displays the contents of a file with line numbers.
+head → Displays the beginning of a file (default is the first 10 lines).
+tail → Displays the end of a file (default is the last 10 lines).
+diff → Compares two files and shows the differences between them.
+diff -r → Compares two directories recursively, including their subdirectories and files.
+
+
+
