@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1757849020,,"wq"
+|2,0,1757849707,,"wq"
 :w1
 |2,0,1757847654,,"w1"
 
@@ -27,20 +27,34 @@
 # Registers:
 
 # File marks:
-'0  14  0  ~/collect_failed.sh
-|4,48,14,0,1757849020,"~/collect_failed.sh"
+'0  6  0  ~/.gitignore
+|4,48,6,0,1757849707,"~/.gitignore"
 '1  14  0  ~/collect_failed.sh
-|4,49,14,0,1757847659,"~/collect_failed.sh"
-'2  2  0  ~/copy_listed_files.py
-|4,50,2,0,1757499828,"~/copy_listed_files.py"
-'3  2  0  ~/copy_listed_files.py
-|4,51,2,0,1757499828,"~/copy_listed_files.py"
-'4  54  0  ~/week2_riscv_assignments/copy_listed_files.py
-|4,52,54,0,1757499731,"~/week2_riscv_assignments/copy_listed_files.py"
-'5  54  0  ~/week2_riscv_assignments/copy_listed_files.py
-|4,53,54,0,1757499731,"~/week2_riscv_assignments/copy_listed_files.py"
+|4,49,14,0,1757849020,"~/collect_failed.sh"
+'2  14  0  ~/collect_failed.sh
+|4,50,14,0,1757849020,"~/collect_failed.sh"
+'3  14  0  ~/collect_failed.sh
+|4,51,14,0,1757847659,"~/collect_failed.sh"
+'4  14  0  ~/collect_failed.sh
+|4,52,14,0,1757847659,"~/collect_failed.sh"
+'5  2  0  ~/copy_listed_files.py
+|4,53,2,0,1757499828,"~/copy_listed_files.py"
+'6  2  0  ~/copy_listed_files.py
+|4,54,2,0,1757499828,"~/copy_listed_files.py"
+'7  2  0  ~/copy_listed_files.py
+|4,55,2,0,1757499828,"~/copy_listed_files.py"
+'8  2  0  ~/copy_listed_files.py
+|4,56,2,0,1757499828,"~/copy_listed_files.py"
+'9  54  0  ~/week2_riscv_assignments/copy_listed_files.py
+|4,57,54,0,1757499731,"~/week2_riscv_assignments/copy_listed_files.py"
 
 # Jumplist (newest first):
+-'  6  0  ~/.gitignore
+|4,39,6,0,1757849707,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1757849659,"~/.gitignore"
+-'  14  0  ~/collect_failed.sh
+|4,39,14,0,1757849020,"~/collect_failed.sh"
 -'  14  0  ~/collect_failed.sh
 |4,39,14,0,1757849020,"~/collect_failed.sh"
 -'  14  0  ~/collect_failed.sh
@@ -49,6 +63,10 @@
 |4,39,1,0,1757847587,"~/collect_failed.sh"
 -'  1  0  ~/collect_failed.sh
 |4,39,1,0,1757847587,"~/collect_failed.sh"
+-'  1  0  ~/collect_failed.sh
+|4,39,1,0,1757847587,"~/collect_failed.sh"
+-'  2  0  ~/copy_listed_files.py
+|4,39,2,0,1757499828,"~/copy_listed_files.py"
 -'  2  0  ~/copy_listed_files.py
 |4,39,2,0,1757499828,"~/copy_listed_files.py"
 -'  2  0  ~/copy_listed_files.py
@@ -65,6 +83,8 @@
 |4,39,1,0,1757499793,"~/copy_listed_files.py"
 -'  1  0  ~/copy_listed_files.py
 |4,39,1,0,1757499793,"~/copy_listed_files.py"
+-'  1  0  ~/copy_listed_files.py
+|4,39,1,0,1757499793,"~/copy_listed_files.py"
 -'  54  0  ~/week2_riscv_assignments/copy_listed_files.py
 |4,39,54,0,1757499731,"~/week2_riscv_assignments/copy_listed_files.py"
 -'  54  0  ~/week2_riscv_assignments/copy_listed_files.py
@@ -77,6 +97,10 @@
 |4,39,54,0,1757499731,"~/week2_riscv_assignments/copy_listed_files.py"
 -'  54  0  ~/week2_riscv_assignments/copy_listed_files.py
 |4,39,54,0,1757499731,"~/week2_riscv_assignments/copy_listed_files.py"
+-'  54  0  ~/week2_riscv_assignments/copy_listed_files.py
+|4,39,54,0,1757499731,"~/week2_riscv_assignments/copy_listed_files.py"
+-'  1  0  ~/week2_riscv_assignments/copy_listed_files.py
+|4,39,1,0,1757499666,"~/week2_riscv_assignments/copy_listed_files.py"
 -'  1  0  ~/week2_riscv_assignments/copy_listed_files.py
 |4,39,1,0,1757499666,"~/week2_riscv_assignments/copy_listed_files.py"
 -'  1  0  ~/week2_riscv_assignments/copy_listed_files.py
@@ -91,6 +115,13 @@
 |4,39,1,0,1757499666,"~/week2_riscv_assignments/copy_listed_files.py"
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	*	1757849703	0
+	"	6	0
+	^	6	0
+	.	5	0
+	+	5	0
 
 > ~/collect_failed.sh
 	*	1757849017	0
