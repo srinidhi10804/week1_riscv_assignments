@@ -231,3 +231,45 @@
 2025-09-02 08:29:35.640 [info] [100.96.84.65][fc4a08c3][ExtensionHostConnection] The client has reconnected.
 2025-09-02 08:29:35.643 [info] [100.96.84.65][f9c29f08][ManagementConnection] The client has reconnected.
 2025-09-02 09:18:49.871 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-09-02 09:31:44.197 [info] [100.96.84.65][f9c29f08][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-09-02 09:31:44.400 [info] [100.96.84.65][fc4a08c3][ExtensionHostConnection] <12015> Extension Host Process exited with code: 0, signal: null.
+2025-09-02 09:32:37.594 [info] [100.96.84.65][49935fae][ExtensionHostConnection] New connection established.
+2025-09-02 09:32:37.594 [info] [100.96.84.65][9ad6cf19][ManagementConnection] New connection established.
+2025-09-02 09:32:37.607 [info] [100.96.84.65][49935fae][ExtensionHostConnection] <425056> Launched Extension Host Process.
+2025-09-02 10:12:23.162 [info] [100.96.84.65][9ad6cf19][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-09-02 10:12:23.234 [info] [100.96.84.65][49935fae][ExtensionHostConnection] <425056> Extension Host Process exited with code: 0, signal: null.
+2025-09-07 11:13:15.747 [info] [100.96.84.65][ceed41c3][ExtensionHostConnection] New connection established.
+2025-09-07 11:13:15.882 [info] [100.96.84.65][ceed41c3][ExtensionHostConnection] <425271> Launched Extension Host Process.
+2025-09-07 11:13:15.884 [info] [100.96.84.65][2e745923][ManagementConnection] New connection established.
+2025-09-07 12:08:32.165 [info] [100.96.84.65][2e745923][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-09-07 12:08:32.396 [info] [100.96.84.65][ceed41c3][ExtensionHostConnection] <425271> Extension Host Process exited with code: 0, signal: null.
+2025-09-09 03:40:07.923 [info] [100.96.84.65][a87c2ecb][ManagementConnection] New connection established.
+2025-09-09 03:40:07.927 [info] [100.96.84.65][c5f8d6a6][ExtensionHostConnection] New connection established.
+2025-09-09 03:40:08.007 [info] [100.96.84.65][c5f8d6a6][ExtensionHostConnection] <425452> Launched Extension Host Process.
+2025-09-09 04:59:16.573 [info] [100.96.84.65][c5f8d6a6][ExtensionHostConnection] The client has reconnected.
+2025-09-09 04:59:16.673 [info] [100.96.84.65][a87c2ecb][ManagementConnection] The client has reconnected.
+2025-09-09 05:37:40.888 [info] [100.96.84.65][a87c2ecb][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-09-09 05:37:41.287 [info] [100.96.84.65][c5f8d6a6][ExtensionHostConnection] <425452> Extension Host Process exited with code: 0, signal: null.
+2025-09-10 08:03:13.927 [info] [100.96.84.65][f7f58963][ManagementConnection] New connection established.
+2025-09-10 08:03:13.970 [info] [100.96.84.65][ad2c486f][ExtensionHostConnection] New connection established.
+2025-09-10 08:03:14.090 [info] [100.96.84.65][ad2c486f][ExtensionHostConnection] <425898> Launched Extension Host Process.
+2025-09-10 08:37:20.127 [info] [100.96.84.65][6fc61c7d][ManagementConnection] New connection established.
+2025-09-10 08:37:20.151 [info] [100.96.84.65][94241625][ExtensionHostConnection] New connection established.
+2025-09-10 08:37:20.184 [info] [100.96.84.65][94241625][ExtensionHostConnection] <476460> Launched Extension Host Process.
+2025-09-10 08:37:40.211 [info] [100.96.84.65][6fc61c7d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-09-10 08:37:40.254 [info] [100.96.84.65][94241625][ExtensionHostConnection] <476460> Extension Host Process exited with code: 0, signal: null.
+2025-09-10 08:37:58.356 [info] [100.96.84.65][7e3447a8][ManagementConnection] New connection established.
+2025-09-10 08:37:58.453 [info] [100.96.84.65][b63ced4f][ExtensionHostConnection] New connection established.
+2025-09-10 08:37:58.486 [info] [100.96.84.65][b63ced4f][ExtensionHostConnection] <477133> Launched Extension Host Process.
+2025-09-10 08:38:02.461 [warning] No ptyHost heartbeat after 6 seconds
+2025-09-10 09:09:43.884 [info] [100.96.84.65][7e3447a8][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-09-10 09:09:44.010 [info] [100.96.84.65][b63ced4f][ExtensionHostConnection] <477133> Extension Host Process exited with code: 0, signal: null.
+2025-09-10 10:43:36.604 [info] [100.96.84.65][f7f58963][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-09-10 10:43:36.786 [info] [100.96.84.65][ad2c486f][ExtensionHostConnection] <425898> Extension Host Process exited with code: 0, signal: null.
+2025-09-14 10:46:23.476 [info] [100.96.48.177][e0eacc2b][ExtensionHostConnection] New connection established.
+2025-09-14 10:46:23.478 [info] [100.96.48.177][c684800c][ManagementConnection] New connection established.
+2025-09-14 10:46:23.549 [info] [100.96.48.177][e0eacc2b][ExtensionHostConnection] <549350> Launched Extension Host Process.
+2025-09-14 11:12:54.294 [info] [100.96.48.177][c684800c][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-09-14 11:23:01.083 [info] [100.96.48.177][c684800c][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-09-14 11:23:01.084 [info] [100.96.48.177][e0eacc2b][ExtensionHostConnection] The client has reconnected.
+2025-09-14 11:23:01.388 [info] [100.96.48.177][c684800c][ManagementConnection] The client has reconnected.

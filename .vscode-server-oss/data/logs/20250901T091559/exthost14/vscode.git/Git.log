@@ -1,0 +1,1169 @@
+2025-09-14 10:46:33.396 [info] [main] Log level: Info
+2025-09-14 10:46:33.396 [info] [main] Validating found git in: "git"
+2025-09-14 10:46:33.396 [info] [main] Using git "2.43.0" from "git"
+2025-09-14 10:46:33.396 [info] [Model][doInitialScan] Initial repository scan started
+2025-09-14 10:46:33.396 [info] > git rev-parse --show-toplevel [509ms]
+2025-09-14 10:46:33.485 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [130ms]
+2025-09-14 10:46:33.590 [info] [Model][openRepository] Opened repository (path): /home/vsysuser/workspace
+2025-09-14 10:46:33.590 [info] [Model][openRepository] Opened repository (real path): /home/vsysuser/workspace
+2025-09-14 10:46:33.590 [info] [Model][openRepository] Opened repository (kind): repository
+2025-09-14 10:46:33.592 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:46:33.791 [info] > git config --get commit.template [93ms]
+2025-09-14 10:46:33.886 [info] > git rev-parse --show-toplevel [129ms]
+2025-09-14 10:46:34.091 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [108ms]
+2025-09-14 10:46:34.351 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [267ms]
+2025-09-14 10:46:34.488 [info] [Model][openRepository] Opened repository (path): /home/vsysuser/workspace/week2_riscv_assignments
+2025-09-14 10:46:34.488 [info] [Model][openRepository] Opened repository (real path): /home/vsysuser/workspace/week2_riscv_assignments
+2025-09-14 10:46:34.488 [info] [Model][openRepository] Opened repository (kind): repository
+2025-09-14 10:46:34.492 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:46:34.898 [info] > git check-ignore -v -z --stdin [337ms]
+2025-09-14 10:46:34.957 [info] > git config --get commit.template [305ms]
+2025-09-14 10:46:34.991 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [110ms]
+2025-09-14 10:46:34.995 [info] > git rev-parse --show-toplevel [307ms]
+2025-09-14 10:46:35.197 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [110ms]
+2025-09-14 10:46:35.598 [info] > git status -z -uall [897ms]
+2025-09-14 10:46:35.599 [info] > git status -z -uall [247ms]
+2025-09-14 10:46:36.100 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:46:36.100 [info] > git rev-parse --show-toplevel [913ms]
+2025-09-14 10:46:36.798 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [707ms]
+2025-09-14 10:46:36.892 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1491ms]
+2025-09-14 10:46:37.094 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:46:37.194 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [143ms]
+2025-09-14 10:46:37.293 [info] > git config --get --local branch.main.vscode-merge-base [402ms]
+2025-09-14 10:46:37.295 [warning] [Git][config] git config failed: Failed to execute git
+2025-09-14 10:46:37.388 [info] > git rev-parse --show-toplevel [593ms]
+2025-09-14 10:46:37.388 [info] > git config --get commit.template [635ms]
+2025-09-14 10:46:37.401 [info] > git config --get --local branch.master.vscode-merge-base [108ms]
+2025-09-14 10:46:37.401 [warning] [Git][config] git config failed: Failed to execute git
+2025-09-14 10:46:37.490 [info] > git config --get commit.template [298ms]
+2025-09-14 10:46:37.558 [info] > git rev-parse --show-toplevel [157ms]
+2025-09-14 10:46:37.559 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-09-14 10:46:37.559 [info] > git reflog main --grep-reflog=branch: Created from *. [174ms]
+2025-09-14 10:46:37.591 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [40ms]
+2025-09-14 10:46:37.591 [info] > git reflog master --grep-reflog=branch: Created from *. [101ms]
+2025-09-14 10:46:37.597 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2025-09-14 10:46:37.598 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [15ms]
+2025-09-14 10:46:37.598 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-09-14 10:46:37.598 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-09-14 10:46:37.653 [info] > git merge-base refs/heads/main refs/remotes/origin/main [49ms]
+2025-09-14 10:46:37.685 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [89ms]
+2025-09-14 10:46:37.685 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-09-14 10:46:37.685 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-09-14 10:46:37.692 [info] > git diff --name-status -z --diff-filter=ADMR 7cec3caaf16d1d468ce8984ba5d73dec8f3171ae...refs/remotes/origin/main [8ms]
+2025-09-14 10:46:37.793 [info] > git merge-base refs/heads/master refs/remotes/origin/master [96ms]
+2025-09-14 10:46:37.949 [info] > git status -z -uall [202ms]
+2025-09-14 10:46:37.950 [info] > git status -z -uall [58ms]
+2025-09-14 10:46:37.950 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [164ms]
+2025-09-14 10:46:37.952 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [54ms]
+2025-09-14 10:46:37.982 [info] > git diff --name-status -z --diff-filter=ADMR bca8fe2818e4c637b0060e1a9c2c19636833245b...refs/remotes/origin/master [130ms]
+2025-09-14 10:46:37.987 [info] > git merge-base refs/heads/master refs/remotes/origin/master [27ms]
+2025-09-14 10:46:38.011 [info] > git diff --name-status -z --diff-filter=ADMR bca8fe2818e4c637b0060e1a9c2c19636833245b...refs/remotes/origin/master [19ms]
+2025-09-14 10:46:38.897 [info] > git check-ignore -v -z --stdin [7ms]
+2025-09-14 10:46:38.906 [info] > git check-ignore -v -z --stdin [11ms]
+2025-09-14 10:47:29.933 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:47:29.950 [info] > git config --get commit.template [11ms]
+2025-09-14 10:47:29.959 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 10:47:30.083 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [25ms]
+2025-09-14 10:47:30.152 [info] > git status -z -uall [188ms]
+2025-09-14 10:48:40.041 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:48:40.056 [info] > git config --get commit.template [9ms]
+2025-09-14 10:48:40.056 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 10:48:40.157 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 10:48:40.188 [info] > git status -z -uall [127ms]
+2025-09-14 10:48:42.667 [info] > git check-ignore -v -z --stdin [11ms]
+2025-09-14 10:48:45.195 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:48:45.203 [info] > git config --get commit.template [2ms]
+2025-09-14 10:48:45.209 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-09-14 10:48:45.287 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [65ms]
+2025-09-14 10:48:45.309 [info] > git status -z -uall [95ms]
+2025-09-14 10:48:50.453 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:48:50.661 [info] > git config --get commit.template [11ms]
+2025-09-14 10:48:50.765 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-09-14 10:48:51.063 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-09-14 10:48:51.154 [info] > git status -z -uall [268ms]
+2025-09-14 10:48:56.172 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:48:56.550 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [92ms]
+2025-09-14 10:48:56.554 [info] > git config --get commit.template [271ms]
+2025-09-14 10:48:56.953 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [98ms]
+2025-09-14 10:48:56.984 [info] > git status -z -uall [333ms]
+2025-09-14 10:49:12.991 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:49:13.050 [info] > git config --get commit.template [53ms]
+2025-09-14 10:49:13.053 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [50ms]
+2025-09-14 10:49:13.092 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-09-14 10:49:13.205 [info] > git status -z -uall [146ms]
+2025-09-14 10:49:16.504 [info] > git check-ignore -v -z --stdin [5ms]
+2025-09-14 10:49:23.707 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:49:23.721 [info] > git config --get commit.template [8ms]
+2025-09-14 10:49:23.722 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 10:49:23.785 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [49ms]
+2025-09-14 10:49:23.884 [info] > git status -z -uall [157ms]
+2025-09-14 10:49:28.893 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:49:28.950 [info] > git config --get commit.template [46ms]
+2025-09-14 10:49:28.989 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-09-14 10:49:29.100 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [18ms]
+2025-09-14 10:49:29.296 [info] > git status -z -uall [299ms]
+2025-09-14 10:49:34.355 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:49:34.369 [info] > git config --get commit.template [8ms]
+2025-09-14 10:49:34.370 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 10:49:34.468 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-09-14 10:49:34.558 [info] > git status -z -uall [182ms]
+2025-09-14 10:49:39.563 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:49:39.574 [info] > git config --get commit.template [6ms]
+2025-09-14 10:49:39.576 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 10:49:39.659 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-09-14 10:49:39.699 [info] > git status -z -uall [117ms]
+2025-09-14 10:49:43.593 [info] > git check-ignore -v -z --stdin [6ms]
+2025-09-14 10:49:44.703 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:49:44.721 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 10:49:44.722 [info] > git config --get commit.template [13ms]
+2025-09-14 10:49:44.882 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [32ms]
+2025-09-14 10:49:44.898 [info] > git status -z -uall [170ms]
+2025-09-14 10:49:49.903 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:49:49.914 [info] > git config --get commit.template [6ms]
+2025-09-14 10:49:49.916 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 10:49:49.990 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [60ms]
+2025-09-14 10:49:50.012 [info] > git status -z -uall [91ms]
+2025-09-14 10:50:05.162 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:50:05.173 [info] > git config --get commit.template [6ms]
+2025-09-14 10:50:05.174 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-09-14 10:50:05.266 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-09-14 10:50:05.350 [info] > git status -z -uall [171ms]
+2025-09-14 10:50:12.866 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:50:12.879 [info] > git config --get commit.template [8ms]
+2025-09-14 10:50:12.881 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 10:50:12.988 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [30ms]
+2025-09-14 10:50:13.061 [info] > git status -z -uall [174ms]
+2025-09-14 10:55:09.325 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:55:09.345 [info] > git config --get commit.template [9ms]
+2025-09-14 10:55:09.347 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 10:55:09.482 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [80ms]
+2025-09-14 10:55:09.502 [info] > git status -z -uall [148ms]
+2025-09-14 10:55:15.353 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:55:15.363 [info] > git config --get commit.template [6ms]
+2025-09-14 10:55:15.365 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 10:55:15.462 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2025-09-14 10:55:15.480 [info] > git status -z -uall [110ms]
+2025-09-14 10:55:21.029 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:55:21.040 [info] > git config --get commit.template [6ms]
+2025-09-14 10:55:21.042 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 10:55:21.089 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-09-14 10:55:21.159 [info] > git status -z -uall [112ms]
+2025-09-14 10:55:24.266 [info] > git check-ignore -v -z --stdin [3ms]
+2025-09-14 10:55:26.185 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:55:26.200 [info] > git config --get commit.template [9ms]
+2025-09-14 10:55:26.202 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 10:55:26.392 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [92ms]
+2025-09-14 10:55:26.395 [info] > git check-ignore -v -z --stdin [7ms]
+2025-09-14 10:55:26.400 [info] > git status -z -uall [191ms]
+2025-09-14 10:55:27.541 [info] > git check-ignore -v -z --stdin [4ms]
+2025-09-14 10:55:28.859 [info] > git check-ignore -v -z --stdin [9ms]
+2025-09-14 10:55:28.862 [info] > git check-ignore -v -z --stdin [5ms]
+2025-09-14 10:55:31.408 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:55:31.430 [info] > git config --get commit.template [12ms]
+2025-09-14 10:55:31.433 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 10:55:31.498 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-09-14 10:55:31.586 [info] > git status -z -uall [146ms]
+2025-09-14 10:55:57.469 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:55:57.480 [info] > git config --get commit.template [6ms]
+2025-09-14 10:55:57.482 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 10:55:57.556 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [56ms]
+2025-09-14 10:55:57.601 [info] > git status -z -uall [115ms]
+2025-09-14 10:56:02.605 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:56:02.617 [info] > git config --get commit.template [3ms]
+2025-09-14 10:56:02.628 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 10:56:02.784 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [80ms]
+2025-09-14 10:56:02.803 [info] > git status -z -uall [169ms]
+2025-09-14 10:56:07.853 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:56:07.964 [info] > git config --get commit.template [81ms]
+2025-09-14 10:56:07.966 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-09-14 10:56:08.150 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [84ms]
+2025-09-14 10:56:08.355 [info] > git status -z -uall [369ms]
+2025-09-14 10:56:14.083 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:56:14.171 [info] > git config --get commit.template [16ms]
+2025-09-14 10:56:14.260 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-09-14 10:56:14.454 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [101ms]
+2025-09-14 10:56:14.461 [info] > git status -z -uall [196ms]
+2025-09-14 10:56:21.666 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:56:21.681 [info] > git config --get commit.template [8ms]
+2025-09-14 10:56:21.683 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 10:56:21.788 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [26ms]
+2025-09-14 10:56:21.868 [info] > git status -z -uall [179ms]
+2025-09-14 10:56:37.602 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:56:37.613 [info] > git config --get commit.template [4ms]
+2025-09-14 10:56:37.623 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 10:56:37.702 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [13ms]
+2025-09-14 10:56:37.802 [info] > git status -z -uall [162ms]
+2025-09-14 10:56:43.743 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:56:43.758 [info] > git config --get commit.template [7ms]
+2025-09-14 10:56:43.760 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 10:56:43.859 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [75ms]
+2025-09-14 10:56:43.888 [info] > git status -z -uall [123ms]
+2025-09-14 10:56:49.929 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:56:49.942 [info] > git config --get commit.template [7ms]
+2025-09-14 10:56:49.943 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 10:56:49.995 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-09-14 10:56:50.083 [info] > git status -z -uall [136ms]
+2025-09-14 10:57:38.389 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:57:38.405 [info] > git config --get commit.template [9ms]
+2025-09-14 10:57:38.406 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 10:57:38.501 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-09-14 10:57:38.591 [info] > git status -z -uall [180ms]
+2025-09-14 10:57:44.690 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:57:44.707 [info] > git config --get commit.template [9ms]
+2025-09-14 10:57:44.707 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 10:57:44.804 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-09-14 10:57:44.898 [info] > git status -z -uall [184ms]
+2025-09-14 10:57:49.903 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:57:49.920 [info] > git config --get commit.template [9ms]
+2025-09-14 10:57:49.922 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 10:57:50.006 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-09-14 10:57:50.096 [info] > git status -z -uall [167ms]
+2025-09-14 10:57:55.102 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:57:55.116 [info] > git config --get commit.template [8ms]
+2025-09-14 10:57:55.117 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 10:57:55.196 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-09-14 10:57:55.291 [info] > git status -z -uall [168ms]
+2025-09-14 10:58:00.298 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:58:00.387 [info] > git config --get commit.template [37ms]
+2025-09-14 10:58:00.484 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [86ms]
+2025-09-14 10:58:00.687 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-09-14 10:58:00.802 [info] > git status -z -uall [303ms]
+2025-09-14 10:58:13.362 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:58:13.378 [info] > git config --get commit.template [8ms]
+2025-09-14 10:58:13.379 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 10:58:13.484 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [19ms]
+2025-09-14 10:58:13.562 [info] > git status -z -uall [177ms]
+2025-09-14 10:58:18.568 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:58:18.582 [info] > git config --get commit.template [7ms]
+2025-09-14 10:58:18.585 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-09-14 10:58:18.689 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [28ms]
+2025-09-14 10:58:18.757 [info] > git status -z -uall [166ms]
+2025-09-14 10:58:23.761 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:58:23.773 [info] > git config --get commit.template [6ms]
+2025-09-14 10:58:23.776 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-09-14 10:58:23.862 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-09-14 10:58:23.898 [info] > git status -z -uall [117ms]
+2025-09-14 10:58:24.721 [info] > git check-ignore -v -z --stdin [6ms]
+2025-09-14 10:58:28.955 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:58:28.967 [info] > git config --get commit.template [6ms]
+2025-09-14 10:58:28.969 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-09-14 10:58:29.057 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-09-14 10:58:29.075 [info] > git status -z -uall [102ms]
+2025-09-14 10:58:34.079 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:58:34.091 [info] > git config --get commit.template [7ms]
+2025-09-14 10:58:34.093 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-09-14 10:58:34.199 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 10:58:34.285 [info] > git status -z -uall [187ms]
+2025-09-14 10:58:39.291 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:58:39.306 [info] > git config --get commit.template [8ms]
+2025-09-14 10:58:39.307 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-09-14 10:58:39.396 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-09-14 10:58:39.413 [info] > git status -z -uall [101ms]
+2025-09-14 10:58:44.485 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:58:44.498 [info] > git config --get commit.template [8ms]
+2025-09-14 10:58:44.498 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 10:58:44.593 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-09-14 10:58:44.609 [info] > git status -z -uall [106ms]
+2025-09-14 10:58:49.615 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:58:49.623 [info] > git config --get commit.template [3ms]
+2025-09-14 10:58:49.631 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 10:58:49.692 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-09-14 10:58:49.710 [info] > git status -z -uall [74ms]
+2025-09-14 10:58:54.801 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:58:55.082 [info] > git config --get commit.template [179ms]
+2025-09-14 10:58:55.090 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [93ms]
+2025-09-14 10:58:55.394 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2025-09-14 10:58:55.951 [info] > git status -z -uall [760ms]
+2025-09-14 10:59:01.186 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:59:01.996 [info] > git config --get commit.template [692ms]
+2025-09-14 10:59:02.805 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [402ms]
+2025-09-14 10:59:03.505 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [112ms]
+2025-09-14 10:59:03.993 [info] > git status -z -uall [891ms]
+2025-09-14 10:59:09.450 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:59:10.189 [info] > git config --get commit.template [305ms]
+2025-09-14 10:59:10.602 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [208ms]
+2025-09-14 10:59:12.694 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [711ms]
+2025-09-14 10:59:13.687 [info] > git status -z -uall [1905ms]
+2025-09-14 10:59:19.582 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:59:20.084 [info] > git config --get commit.template [334ms]
+2025-09-14 10:59:21.186 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [399ms]
+2025-09-14 10:59:23.200 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [514ms]
+2025-09-14 10:59:24.290 [info] > git status -z -uall [1997ms]
+2025-09-14 10:59:29.606 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:59:30.099 [info] > git config --get commit.template [243ms]
+2025-09-14 10:59:31.187 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [386ms]
+2025-09-14 10:59:33.051 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [361ms]
+2025-09-14 10:59:33.691 [info] > git status -z -uall [1440ms]
+2025-09-14 10:59:40.151 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:59:41.803 [info] > git config --get commit.template [618ms]
+2025-09-14 10:59:42.885 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [588ms]
+2025-09-14 10:59:45.785 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [782ms]
+2025-09-14 10:59:45.996 [info] > git status -z -uall [1392ms]
+2025-09-14 10:59:51.405 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 10:59:53.550 [info] > git config --get commit.template [1069ms]
+2025-09-14 10:59:55.196 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1392ms]
+2025-09-14 10:59:58.083 [info] > git status -z -uall [1290ms]
+2025-09-14 10:59:58.584 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1532ms]
+2025-09-14 11:00:42.984 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:00:44.086 [info] > git config --get commit.template [1094ms]
+2025-09-14 11:00:45.553 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [958ms]
+2025-09-14 11:00:47.789 [info] > git status -z -uall [607ms]
+2025-09-14 11:00:48.197 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [994ms]
+2025-09-14 11:00:53.383 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:00:54.395 [info] > git config --get commit.template [1005ms]
+2025-09-14 11:00:56.211 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1005ms]
+2025-09-14 11:00:58.312 [info] > git status -z -uall [608ms]
+2025-09-14 11:00:58.785 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [992ms]
+2025-09-14 11:01:03.887 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:01:04.795 [info] > git config --get commit.template [901ms]
+2025-09-14 11:01:05.803 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [590ms]
+2025-09-14 11:01:07.093 [info] > git status -z -uall [383ms]
+2025-09-14 11:01:07.186 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [304ms]
+2025-09-14 11:01:12.201 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:01:12.402 [info] > git config --get commit.template [7ms]
+2025-09-14 11:01:12.788 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [105ms]
+2025-09-14 11:01:13.305 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [15ms]
+2025-09-14 11:01:13.400 [info] > git status -z -uall [408ms]
+2025-09-14 11:01:14.308 [info] > git check-ignore -v -z --stdin [17ms]
+2025-09-14 11:01:18.490 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:01:18.851 [info] > git config --get commit.template [164ms]
+2025-09-14 11:01:19.004 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2025-09-14 11:01:19.489 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [93ms]
+2025-09-14 11:01:19.782 [info] > git status -z -uall [492ms]
+2025-09-14 11:01:35.041 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:01:35.054 [info] > git config --get commit.template [7ms]
+2025-09-14 11:01:35.056 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:01:35.154 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [63ms]
+2025-09-14 11:01:35.170 [info] > git status -z -uall [110ms]
+2025-09-14 11:01:42.232 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:01:42.248 [info] > git config --get commit.template [9ms]
+2025-09-14 11:01:42.250 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:01:42.354 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-09-14 11:01:42.391 [info] > git status -z -uall [135ms]
+2025-09-14 11:01:48.242 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:01:48.252 [info] > git config --get commit.template [3ms]
+2025-09-14 11:01:48.261 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:01:48.385 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [25ms]
+2025-09-14 11:01:48.458 [info] > git status -z -uall [190ms]
+2025-09-14 11:01:53.465 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:01:53.473 [info] > git config --get commit.template [3ms]
+2025-09-14 11:01:53.481 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:01:53.650 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [59ms]
+2025-09-14 11:01:53.665 [info] > git status -z -uall [176ms]
+2025-09-14 11:02:03.508 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:02:03.520 [info] > git config --get commit.template [6ms]
+2025-09-14 11:02:03.522 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:02:03.596 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:02:03.682 [info] > git status -z -uall [154ms]
+2025-09-14 11:02:08.688 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:02:08.705 [info] > git config --get commit.template [10ms]
+2025-09-14 11:02:08.705 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:02:08.803 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-09-14 11:02:08.891 [info] > git status -z -uall [179ms]
+2025-09-14 11:02:13.897 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:02:13.910 [info] > git config --get commit.template [8ms]
+2025-09-14 11:02:13.911 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:02:13.994 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-09-14 11:02:14.012 [info] > git status -z -uall [95ms]
+2025-09-14 11:02:19.016 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:02:19.033 [info] > git config --get commit.template [10ms]
+2025-09-14 11:02:19.033 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:02:19.101 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2025-09-14 11:02:19.191 [info] > git status -z -uall [151ms]
+2025-09-14 11:02:24.196 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:02:24.211 [info] > git config --get commit.template [8ms]
+2025-09-14 11:02:24.213 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:02:24.300 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-09-14 11:02:24.396 [info] > git status -z -uall [177ms]
+2025-09-14 11:02:29.402 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:02:29.413 [info] > git config --get commit.template [6ms]
+2025-09-14 11:02:29.415 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:02:29.491 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [0ms]
+2025-09-14 11:02:29.512 [info] > git status -z -uall [92ms]
+2025-09-14 11:02:34.553 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:02:34.568 [info] > git config --get commit.template [7ms]
+2025-09-14 11:02:34.569 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:02:34.669 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-09-14 11:02:34.760 [info] > git status -z -uall [185ms]
+2025-09-14 11:02:39.766 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:02:39.779 [info] > git config --get commit.template [7ms]
+2025-09-14 11:02:39.780 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-09-14 11:02:39.883 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [24ms]
+2025-09-14 11:02:39.950 [info] > git status -z -uall [164ms]
+2025-09-14 11:02:44.955 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:02:44.967 [info] > git config --get commit.template [8ms]
+2025-09-14 11:02:44.968 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:02:45.060 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-09-14 11:02:45.078 [info] > git status -z -uall [105ms]
+2025-09-14 11:02:50.083 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:02:50.095 [info] > git config --get commit.template [7ms]
+2025-09-14 11:02:50.097 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-09-14 11:02:50.113 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-09-14 11:02:50.209 [info] > git status -z -uall [106ms]
+2025-09-14 11:02:55.214 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:02:55.227 [info] > git config --get commit.template [7ms]
+2025-09-14 11:02:55.229 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:02:55.297 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-09-14 11:02:55.382 [info] > git status -z -uall [147ms]
+2025-09-14 11:03:00.387 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:03:00.403 [info] > git config --get commit.template [9ms]
+2025-09-14 11:03:00.405 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:03:00.503 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-09-14 11:03:00.597 [info] > git status -z -uall [184ms]
+2025-09-14 11:03:05.603 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:03:05.616 [info] > git config --get commit.template [7ms]
+2025-09-14 11:03:05.617 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:03:05.696 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-09-14 11:03:05.713 [info] > git status -z -uall [89ms]
+2025-09-14 11:03:10.785 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:03:10.798 [info] > git config --get commit.template [8ms]
+2025-09-14 11:03:10.798 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:03:10.890 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [75ms]
+2025-09-14 11:03:10.909 [info] > git status -z -uall [105ms]
+2025-09-14 11:03:15.913 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:03:15.930 [info] > git config --get commit.template [9ms]
+2025-09-14 11:03:15.932 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:03:16.002 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-09-14 11:03:16.092 [info] > git status -z -uall [152ms]
+2025-09-14 11:03:21.097 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:03:21.111 [info] > git config --get commit.template [8ms]
+2025-09-14 11:03:21.114 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:03:21.200 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:03:21.287 [info] > git status -z -uall [166ms]
+2025-09-14 11:03:26.291 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:03:26.304 [info] > git config --get commit.template [7ms]
+2025-09-14 11:03:26.306 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:03:26.399 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:03:26.487 [info] > git status -z -uall [175ms]
+2025-09-14 11:03:31.490 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:03:31.502 [info] > git config --get commit.template [7ms]
+2025-09-14 11:03:31.504 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:03:31.594 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-09-14 11:03:31.611 [info] > git status -z -uall [102ms]
+2025-09-14 11:03:36.682 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:03:36.695 [info] > git config --get commit.template [7ms]
+2025-09-14 11:03:36.697 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:03:36.796 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-09-14 11:03:36.853 [info] > git status -z -uall [150ms]
+2025-09-14 11:03:41.887 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:03:41.900 [info] > git config --get commit.template [8ms]
+2025-09-14 11:03:41.901 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-09-14 11:03:41.994 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-09-14 11:03:42.013 [info] > git status -z -uall [107ms]
+2025-09-14 11:03:47.083 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:03:47.094 [info] > git config --get commit.template [5ms]
+2025-09-14 11:03:47.096 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:03:47.192 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-09-14 11:03:47.207 [info] > git status -z -uall [106ms]
+2025-09-14 11:03:52.212 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:03:52.225 [info] > git config --get commit.template [8ms]
+2025-09-14 11:03:52.226 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:03:52.294 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-09-14 11:03:52.310 [info] > git status -z -uall [79ms]
+2025-09-14 11:03:57.315 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:03:57.332 [info] > git config --get commit.template [11ms]
+2025-09-14 11:03:57.333 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:03:57.402 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-09-14 11:03:57.491 [info] > git status -z -uall [152ms]
+2025-09-14 11:04:02.497 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:04:02.510 [info] > git config --get commit.template [7ms]
+2025-09-14 11:04:02.512 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:04:02.599 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:04:02.687 [info] > git status -z -uall [169ms]
+2025-09-14 11:04:07.698 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:04:07.711 [info] > git config --get commit.template [7ms]
+2025-09-14 11:04:07.714 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:04:07.799 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-09-14 11:04:07.886 [info] > git status -z -uall [166ms]
+2025-09-14 11:04:12.891 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:04:12.903 [info] > git config --get commit.template [7ms]
+2025-09-14 11:04:12.905 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:04:12.997 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:04:13.082 [info] > git status -z -uall [171ms]
+2025-09-14 11:04:18.087 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:04:18.098 [info] > git config --get commit.template [6ms]
+2025-09-14 11:04:18.100 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:04:18.194 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-09-14 11:04:18.209 [info] > git status -z -uall [103ms]
+2025-09-14 11:04:23.214 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:04:23.231 [info] > git config --get commit.template [9ms]
+2025-09-14 11:04:23.233 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:04:23.306 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-09-14 11:04:23.398 [info] > git status -z -uall [158ms]
+2025-09-14 11:04:28.403 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:04:28.415 [info] > git config --get commit.template [7ms]
+2025-09-14 11:04:28.417 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:04:28.495 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:04:28.512 [info] > git status -z -uall [89ms]
+2025-09-14 11:04:33.583 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:04:33.597 [info] > git config --get commit.template [7ms]
+2025-09-14 11:04:33.599 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:04:33.702 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:04:33.791 [info] > git status -z -uall [186ms]
+2025-09-14 11:04:38.797 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:04:38.812 [info] > git config --get commit.template [8ms]
+2025-09-14 11:04:38.814 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:04:38.900 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-09-14 11:04:38.992 [info] > git status -z -uall [172ms]
+2025-09-14 11:04:43.997 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:04:44.011 [info] > git config --get commit.template [8ms]
+2025-09-14 11:04:44.092 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-09-14 11:04:44.304 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-09-14 11:04:44.396 [info] > git status -z -uall [208ms]
+2025-09-14 11:04:49.403 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:04:49.414 [info] > git config --get commit.template [3ms]
+2025-09-14 11:04:49.423 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:04:49.503 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:04:49.595 [info] > git status -z -uall [164ms]
+2025-09-14 11:04:54.602 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:04:54.618 [info] > git config --get commit.template [9ms]
+2025-09-14 11:04:54.619 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:04:54.702 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:04:54.792 [info] > git status -z -uall [167ms]
+2025-09-14 11:04:59.798 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:04:59.812 [info] > git config --get commit.template [8ms]
+2025-09-14 11:04:59.814 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:04:59.899 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-09-14 11:04:59.988 [info] > git status -z -uall [169ms]
+2025-09-14 11:05:04.993 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:05:05.009 [info] > git config --get commit.template [10ms]
+2025-09-14 11:05:05.010 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:05:05.103 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:05:05.194 [info] > git status -z -uall [176ms]
+2025-09-14 11:05:10.199 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:05:10.217 [info] > git config --get commit.template [11ms]
+2025-09-14 11:05:10.217 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:05:10.301 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-09-14 11:05:10.393 [info] > git status -z -uall [169ms]
+2025-09-14 11:05:15.399 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:05:15.415 [info] > git config --get commit.template [10ms]
+2025-09-14 11:05:15.416 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:05:15.502 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-09-14 11:05:15.592 [info] > git status -z -uall [169ms]
+2025-09-14 11:05:20.597 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:05:20.610 [info] > git config --get commit.template [8ms]
+2025-09-14 11:05:20.611 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:05:20.695 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:05:20.711 [info] > git status -z -uall [96ms]
+2025-09-14 11:05:25.715 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:05:25.733 [info] > git config --get commit.template [11ms]
+2025-09-14 11:05:25.735 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:05:25.883 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [81ms]
+2025-09-14 11:05:25.896 [info] > git status -z -uall [154ms]
+2025-09-14 11:05:30.900 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:05:30.914 [info] > git config --get commit.template [9ms]
+2025-09-14 11:05:30.915 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:05:30.997 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-09-14 11:05:31.013 [info] > git status -z -uall [93ms]
+2025-09-14 11:05:36.085 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:05:36.102 [info] > git config --get commit.template [11ms]
+2025-09-14 11:05:36.103 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:05:36.194 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-09-14 11:05:36.290 [info] > git status -z -uall [181ms]
+2025-09-14 11:05:41.295 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:05:41.312 [info] > git config --get commit.template [10ms]
+2025-09-14 11:05:41.313 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-09-14 11:05:41.418 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-09-14 11:05:41.496 [info] > git status -z -uall [175ms]
+2025-09-14 11:05:46.501 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:05:46.514 [info] > git config --get commit.template [8ms]
+2025-09-14 11:05:46.515 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:05:46.594 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-09-14 11:05:46.610 [info] > git status -z -uall [90ms]
+2025-09-14 11:05:51.614 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:05:51.628 [info] > git config --get commit.template [9ms]
+2025-09-14 11:05:51.628 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:05:51.697 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-09-14 11:05:51.781 [info] > git status -z -uall [147ms]
+2025-09-14 11:05:56.787 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:05:56.799 [info] > git config --get commit.template [7ms]
+2025-09-14 11:05:56.800 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:05:56.890 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-09-14 11:05:56.908 [info] > git status -z -uall [104ms]
+2025-09-14 11:06:01.914 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:06:01.930 [info] > git config --get commit.template [8ms]
+2025-09-14 11:06:01.931 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:06:01.998 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:06:02.013 [info] > git status -z -uall [76ms]
+2025-09-14 11:06:07.085 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:06:07.099 [info] > git config --get commit.template [8ms]
+2025-09-14 11:06:07.102 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:06:07.202 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-09-14 11:06:07.292 [info] > git status -z -uall [184ms]
+2025-09-14 11:06:12.298 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:06:12.310 [info] > git config --get commit.template [7ms]
+2025-09-14 11:06:12.312 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:06:12.397 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-09-14 11:06:12.483 [info] > git status -z -uall [166ms]
+2025-09-14 11:06:17.487 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:06:17.502 [info] > git config --get commit.template [8ms]
+2025-09-14 11:06:17.504 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:06:17.600 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-09-14 11:06:17.689 [info] > git status -z -uall [179ms]
+2025-09-14 11:06:22.694 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:06:22.706 [info] > git config --get commit.template [6ms]
+2025-09-14 11:06:22.708 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:06:22.795 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-09-14 11:06:22.811 [info] > git status -z -uall [98ms]
+2025-09-14 11:06:27.883 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:06:27.891 [info] > git config --get commit.template [3ms]
+2025-09-14 11:06:27.898 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:06:27.991 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [76ms]
+2025-09-14 11:06:28.009 [info] > git status -z -uall [104ms]
+2025-09-14 11:06:33.012 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:06:33.024 [info] > git config --get commit.template [2ms]
+2025-09-14 11:06:33.032 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:06:33.093 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-09-14 11:06:33.112 [info] > git status -z -uall [75ms]
+2025-09-14 11:06:38.117 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:06:38.129 [info] > git config --get commit.template [6ms]
+2025-09-14 11:06:38.131 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:06:38.197 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-09-14 11:06:38.212 [info] > git status -z -uall [75ms]
+2025-09-14 11:06:43.285 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:06:43.296 [info] > git config --get commit.template [6ms]
+2025-09-14 11:06:43.298 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:06:43.394 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:06:43.410 [info] > git status -z -uall [107ms]
+2025-09-14 11:06:48.414 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:06:48.427 [info] > git config --get commit.template [7ms]
+2025-09-14 11:06:48.430 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:06:48.496 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-09-14 11:06:48.512 [info] > git status -z -uall [76ms]
+2025-09-14 11:06:53.585 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:06:53.602 [info] > git config --get commit.template [8ms]
+2025-09-14 11:06:53.603 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:06:53.789 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [84ms]
+2025-09-14 11:06:53.799 [info] > git status -z -uall [186ms]
+2025-09-14 11:06:58.805 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:06:58.821 [info] > git config --get commit.template [9ms]
+2025-09-14 11:06:58.822 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:06:58.982 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [84ms]
+2025-09-14 11:06:58.993 [info] > git status -z -uall [166ms]
+2025-09-14 11:07:03.998 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:07:04.014 [info] > git config --get commit.template [10ms]
+2025-09-14 11:07:04.015 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:07:04.101 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-09-14 11:07:04.193 [info] > git status -z -uall [172ms]
+2025-09-14 11:07:09.198 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:07:09.212 [info] > git config --get commit.template [7ms]
+2025-09-14 11:07:09.214 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:07:09.298 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:07:09.385 [info] > git status -z -uall [165ms]
+2025-09-14 11:07:14.389 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:07:14.407 [info] > git config --get commit.template [11ms]
+2025-09-14 11:07:14.408 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:07:14.503 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-09-14 11:07:14.593 [info] > git status -z -uall [178ms]
+2025-09-14 11:07:19.597 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:07:19.614 [info] > git config --get commit.template [10ms]
+2025-09-14 11:07:19.615 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:07:19.701 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2025-09-14 11:07:19.796 [info] > git status -z -uall [174ms]
+2025-09-14 11:07:24.801 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:07:24.816 [info] > git config --get commit.template [9ms]
+2025-09-14 11:07:24.819 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:07:24.901 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-09-14 11:07:24.998 [info] > git status -z -uall [173ms]
+2025-09-14 11:07:30.003 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:07:30.021 [info] > git config --get commit.template [10ms]
+2025-09-14 11:07:30.022 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:07:30.194 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-09-14 11:07:30.210 [info] > git status -z -uall [177ms]
+2025-09-14 11:07:35.214 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:07:35.229 [info] > git config --get commit.template [9ms]
+2025-09-14 11:07:35.230 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:07:35.299 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:07:35.384 [info] > git status -z -uall [148ms]
+2025-09-14 11:07:40.389 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:07:40.403 [info] > git config --get commit.template [8ms]
+2025-09-14 11:07:40.406 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:07:40.501 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-09-14 11:07:40.591 [info] > git status -z -uall [178ms]
+2025-09-14 11:07:45.597 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:07:45.612 [info] > git config --get commit.template [9ms]
+2025-09-14 11:07:45.613 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:07:45.700 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-09-14 11:07:45.790 [info] > git status -z -uall [172ms]
+2025-09-14 11:07:50.794 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:07:50.807 [info] > git config --get commit.template [6ms]
+2025-09-14 11:07:50.808 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-09-14 11:07:50.898 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-09-14 11:07:50.985 [info] > git status -z -uall [170ms]
+2025-09-14 11:07:55.990 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:07:56.004 [info] > git config --get commit.template [8ms]
+2025-09-14 11:07:56.007 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:07:56.101 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-09-14 11:07:56.192 [info] > git status -z -uall [178ms]
+2025-09-14 11:08:01.196 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:08:01.211 [info] > git config --get commit.template [9ms]
+2025-09-14 11:08:01.212 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:08:01.301 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-09-14 11:08:01.391 [info] > git status -z -uall [174ms]
+2025-09-14 11:08:06.398 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:08:06.415 [info] > git config --get commit.template [11ms]
+2025-09-14 11:08:06.415 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:08:06.499 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-09-14 11:08:06.590 [info] > git status -z -uall [168ms]
+2025-09-14 11:08:11.595 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:08:11.609 [info] > git config --get commit.template [7ms]
+2025-09-14 11:08:11.611 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:08:11.703 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-09-14 11:08:11.794 [info] > git status -z -uall [177ms]
+2025-09-14 11:08:16.803 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:08:16.818 [info] > git config --get commit.template [9ms]
+2025-09-14 11:08:16.819 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:08:16.899 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-09-14 11:08:16.990 [info] > git status -z -uall [166ms]
+2025-09-14 11:08:21.997 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:08:22.015 [info] > git config --get commit.template [11ms]
+2025-09-14 11:08:22.017 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:08:22.188 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [85ms]
+2025-09-14 11:08:22.201 [info] > git status -z -uall [177ms]
+2025-09-14 11:08:27.205 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:08:27.217 [info] > git config --get commit.template [6ms]
+2025-09-14 11:08:27.219 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:08:27.297 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-09-14 11:08:27.384 [info] > git status -z -uall [159ms]
+2025-09-14 11:08:32.389 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:08:32.402 [info] > git config --get commit.template [7ms]
+2025-09-14 11:08:32.404 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:08:32.496 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2025-09-14 11:08:32.583 [info] > git status -z -uall [174ms]
+2025-09-14 11:08:37.589 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:08:37.606 [info] > git config --get commit.template [10ms]
+2025-09-14 11:08:37.607 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:08:37.782 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [83ms]
+2025-09-14 11:08:37.798 [info] > git status -z -uall [184ms]
+2025-09-14 11:08:42.804 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:08:42.816 [info] > git config --get commit.template [6ms]
+2025-09-14 11:08:42.819 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:08:42.893 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-09-14 11:08:42.982 [info] > git status -z -uall [158ms]
+2025-09-14 11:08:47.986 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:08:47.999 [info] > git config --get commit.template [8ms]
+2025-09-14 11:08:48.000 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:08:48.089 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-09-14 11:08:48.111 [info] > git status -z -uall [105ms]
+2025-09-14 11:08:53.115 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:08:53.133 [info] > git config --get commit.template [11ms]
+2025-09-14 11:08:53.134 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:08:53.201 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-09-14 11:08:53.297 [info] > git status -z -uall [156ms]
+2025-09-14 11:08:58.301 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:08:58.316 [info] > git config --get commit.template [8ms]
+2025-09-14 11:08:58.319 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:08:58.398 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-09-14 11:08:58.485 [info] > git status -z -uall [160ms]
+2025-09-14 11:09:03.489 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:09:03.501 [info] > git config --get commit.template [6ms]
+2025-09-14 11:09:03.502 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:09:03.593 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-09-14 11:09:03.614 [info] > git status -z -uall [107ms]
+2025-09-14 11:09:08.686 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:09:08.699 [info] > git config --get commit.template [7ms]
+2025-09-14 11:09:08.700 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:09:08.796 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-09-14 11:09:08.811 [info] > git status -z -uall [105ms]
+2025-09-14 11:09:13.884 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:09:13.901 [info] > git config --get commit.template [9ms]
+2025-09-14 11:09:13.903 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:09:14.003 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-09-14 11:09:14.094 [info] > git status -z -uall [185ms]
+2025-09-14 11:09:19.101 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:09:19.119 [info] > git config --get commit.template [11ms]
+2025-09-14 11:09:19.120 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:09:19.203 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2025-09-14 11:09:19.297 [info] > git status -z -uall [171ms]
+2025-09-14 11:09:24.303 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:09:24.314 [info] > git config --get commit.template [6ms]
+2025-09-14 11:09:24.316 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:09:24.393 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [64ms]
+2025-09-14 11:09:24.492 [info] > git status -z -uall [170ms]
+2025-09-14 11:09:29.497 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:09:29.508 [info] > git config --get commit.template [7ms]
+2025-09-14 11:09:29.511 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:09:29.593 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-09-14 11:09:29.608 [info] > git status -z -uall [92ms]
+2025-09-14 11:09:34.612 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:09:34.624 [info] > git config --get commit.template [7ms]
+2025-09-14 11:09:34.625 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-09-14 11:09:34.692 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-09-14 11:09:34.709 [info] > git status -z -uall [79ms]
+2025-09-14 11:09:39.714 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:09:39.728 [info] > git config --get commit.template [8ms]
+2025-09-14 11:09:39.730 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:09:39.804 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-09-14 11:09:39.895 [info] > git status -z -uall [158ms]
+2025-09-14 11:09:44.900 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:09:44.913 [info] > git config --get commit.template [7ms]
+2025-09-14 11:09:44.915 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:09:45.003 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:09:45.092 [info] > git status -z -uall [171ms]
+2025-09-14 11:09:50.097 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:09:50.113 [info] > git config --get commit.template [9ms]
+2025-09-14 11:09:50.115 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:09:50.201 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-09-14 11:09:50.292 [info] > git status -z -uall [170ms]
+2025-09-14 11:09:55.295 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:09:55.310 [info] > git config --get commit.template [9ms]
+2025-09-14 11:09:55.312 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:09:55.482 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [81ms]
+2025-09-14 11:09:55.493 [info] > git status -z -uall [175ms]
+2025-09-14 11:10:00.498 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:10:00.514 [info] > git config --get commit.template [9ms]
+2025-09-14 11:10:00.516 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:10:00.600 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-09-14 11:10:00.687 [info] > git status -z -uall [164ms]
+2025-09-14 11:10:05.690 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:10:05.702 [info] > git config --get commit.template [7ms]
+2025-09-14 11:10:05.704 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:10:05.790 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [72ms]
+2025-09-14 11:10:05.809 [info] > git status -z -uall [101ms]
+2025-09-14 11:10:10.814 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:10:10.830 [info] > git config --get commit.template [10ms]
+2025-09-14 11:10:10.832 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:10:10.904 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-09-14 11:10:10.995 [info] > git status -z -uall [156ms]
+2025-09-14 11:10:16.001 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:10:16.013 [info] > git config --get commit.template [7ms]
+2025-09-14 11:10:16.015 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:10:16.096 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [13ms]
+2025-09-14 11:10:16.113 [info] > git status -z -uall [93ms]
+2025-09-14 11:10:21.186 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:10:21.201 [info] > git config --get commit.template [8ms]
+2025-09-14 11:10:21.203 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:10:21.299 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-09-14 11:10:21.401 [info] > git status -z -uall [192ms]
+2025-09-14 11:10:26.406 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:10:26.418 [info] > git config --get commit.template [6ms]
+2025-09-14 11:10:26.419 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-09-14 11:10:26.491 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:10:26.511 [info] > git status -z -uall [86ms]
+2025-09-14 11:10:31.515 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:10:31.525 [info] > git config --get commit.template [3ms]
+2025-09-14 11:10:31.533 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:10:31.600 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-09-14 11:10:31.690 [info] > git status -z -uall [151ms]
+2025-09-14 11:10:36.696 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:10:36.711 [info] > git config --get commit.template [9ms]
+2025-09-14 11:10:36.712 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:10:36.800 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:10:36.894 [info] > git status -z -uall [176ms]
+2025-09-14 11:10:41.899 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:10:41.914 [info] > git config --get commit.template [7ms]
+2025-09-14 11:10:41.916 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:10:42.000 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-09-14 11:10:42.095 [info] > git status -z -uall [169ms]
+2025-09-14 11:10:47.101 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:10:47.118 [info] > git config --get commit.template [10ms]
+2025-09-14 11:10:47.122 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:10:47.204 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:10:47.297 [info] > git status -z -uall [169ms]
+2025-09-14 11:10:52.303 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:10:52.311 [info] > git config --get commit.template [2ms]
+2025-09-14 11:10:52.320 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:10:52.398 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:10:52.484 [info] > git status -z -uall [159ms]
+2025-09-14 11:10:57.488 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:10:57.500 [info] > git config --get commit.template [7ms]
+2025-09-14 11:10:57.502 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:10:57.594 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:10:57.610 [info] > git status -z -uall [101ms]
+2025-09-14 11:11:02.614 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:11:02.632 [info] > git config --get commit.template [12ms]
+2025-09-14 11:11:02.633 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:11:02.706 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-09-14 11:11:02.886 [info] > git status -z -uall [243ms]
+2025-09-14 11:11:07.901 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:11:07.913 [info] > git config --get commit.template [3ms]
+2025-09-14 11:11:07.922 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:11:08.005 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-09-14 11:11:08.104 [info] > git status -z -uall [174ms]
+2025-09-14 11:11:13.108 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:11:13.120 [info] > git config --get commit.template [7ms]
+2025-09-14 11:11:13.123 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:11:13.197 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:11:13.284 [info] > git status -z -uall [156ms]
+2025-09-14 11:11:18.288 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:11:18.299 [info] > git config --get commit.template [6ms]
+2025-09-14 11:11:18.301 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:11:18.399 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-09-14 11:11:18.411 [info] > git status -z -uall [105ms]
+2025-09-14 11:11:23.483 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:11:23.496 [info] > git config --get commit.template [7ms]
+2025-09-14 11:11:23.498 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:11:23.595 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2025-09-14 11:11:23.687 [info] > git status -z -uall [183ms]
+2025-09-14 11:11:28.692 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:11:28.702 [info] > git config --get commit.template [2ms]
+2025-09-14 11:11:28.710 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:11:28.802 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-09-14 11:11:28.894 [info] > git status -z -uall [177ms]
+2025-09-14 11:11:33.900 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:11:33.914 [info] > git config --get commit.template [8ms]
+2025-09-14 11:11:33.916 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:11:34.001 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-09-14 11:11:34.092 [info] > git status -z -uall [169ms]
+2025-09-14 11:11:39.097 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:11:39.108 [info] > git config --get commit.template [6ms]
+2025-09-14 11:11:39.111 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:11:39.198 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-09-14 11:11:39.287 [info] > git status -z -uall [169ms]
+2025-09-14 11:11:44.290 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:11:44.303 [info] > git config --get commit.template [8ms]
+2025-09-14 11:11:44.304 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:11:44.394 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:11:44.410 [info] > git status -z -uall [101ms]
+2025-09-14 11:11:49.414 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:11:49.426 [info] > git config --get commit.template [7ms]
+2025-09-14 11:11:49.428 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:11:49.490 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-09-14 11:11:49.511 [info] > git status -z -uall [78ms]
+2025-09-14 11:11:54.553 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:11:54.567 [info] > git config --get commit.template [7ms]
+2025-09-14 11:11:54.567 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:11:54.659 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:11:54.679 [info] > git status -z -uall [106ms]
+2025-09-14 11:11:59.682 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:11:59.693 [info] > git config --get commit.template [6ms]
+2025-09-14 11:11:59.696 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:11:59.789 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [80ms]
+2025-09-14 11:11:59.809 [info] > git status -z -uall [108ms]
+2025-09-14 11:12:04.813 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:12:04.825 [info] > git config --get commit.template [7ms]
+2025-09-14 11:12:04.827 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:12:04.894 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-09-14 11:12:04.910 [info] > git status -z -uall [77ms]
+2025-09-14 11:12:09.914 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:12:09.927 [info] > git config --get commit.template [8ms]
+2025-09-14 11:12:09.927 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-09-14 11:12:09.992 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [48ms]
+2025-09-14 11:12:10.008 [info] > git status -z -uall [76ms]
+2025-09-14 11:23:02.380 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:23:02.404 [info] > git config --get commit.template [12ms]
+2025-09-14 11:23:02.406 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:23:02.553 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [52ms]
+2025-09-14 11:23:02.605 [info] > git status -z -uall [149ms]
+2025-09-14 11:23:07.610 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:23:07.626 [info] > git config --get commit.template [10ms]
+2025-09-14 11:23:07.628 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:23:07.712 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-09-14 11:23:07.791 [info] > git status -z -uall [157ms]
+2025-09-14 11:23:12.796 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:23:12.812 [info] > git config --get commit.template [8ms]
+2025-09-14 11:23:12.813 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:23:12.901 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-09-14 11:23:12.993 [info] > git status -z -uall [173ms]
+2025-09-14 11:23:21.926 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:23:21.941 [info] > git config --get commit.template [9ms]
+2025-09-14 11:23:21.942 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-09-14 11:23:21.998 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2025-09-14 11:23:22.089 [info] > git status -z -uall [142ms]
+2025-09-14 11:23:27.094 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:23:27.109 [info] > git config --get commit.template [8ms]
+2025-09-14 11:23:27.111 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:23:27.204 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-09-14 11:23:27.293 [info] > git status -z -uall [174ms]
+2025-09-14 11:23:32.298 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:23:32.310 [info] > git config --get commit.template [7ms]
+2025-09-14 11:23:32.312 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:23:32.382 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [58ms]
+2025-09-14 11:23:32.450 [info] > git status -z -uall [133ms]
+2025-09-14 11:23:37.485 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:23:37.501 [info] > git config --get commit.template [9ms]
+2025-09-14 11:23:37.502 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:23:37.598 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:23:37.685 [info] > git status -z -uall [178ms]
+2025-09-14 11:23:42.688 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:23:42.704 [info] > git config --get commit.template [10ms]
+2025-09-14 11:23:42.706 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:23:42.802 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:23:42.891 [info] > git status -z -uall [179ms]
+2025-09-14 11:23:48.990 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:23:49.004 [info] > git config --get commit.template [9ms]
+2025-09-14 11:23:49.005 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:23:49.095 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [75ms]
+2025-09-14 11:23:49.184 [info] > git status -z -uall [174ms]
+2025-09-14 11:24:11.883 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:24:11.892 [info] > git config --get commit.template [3ms]
+2025-09-14 11:24:11.901 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:24:11.996 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-09-14 11:24:12.083 [info] > git status -z -uall [176ms]
+2025-09-14 11:24:17.087 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:24:17.102 [info] > git config --get commit.template [9ms]
+2025-09-14 11:24:17.104 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:24:17.203 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:24:17.295 [info] > git status -z -uall [184ms]
+2025-09-14 11:24:32.213 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:24:32.226 [info] > git config --get commit.template [7ms]
+2025-09-14 11:24:32.228 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:24:32.297 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2025-09-14 11:24:32.386 [info] > git status -z -uall [152ms]
+2025-09-14 11:24:37.391 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:24:37.404 [info] > git config --get commit.template [6ms]
+2025-09-14 11:24:37.406 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:24:37.495 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [14ms]
+2025-09-14 11:24:37.582 [info] > git status -z -uall [170ms]
+2025-09-14 11:24:56.168 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:24:56.180 [info] > git config --get commit.template [6ms]
+2025-09-14 11:24:56.182 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:24:56.259 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [64ms]
+2025-09-14 11:24:56.301 [info] > git status -z -uall [114ms]
+2025-09-14 11:25:02.683 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:25:02.696 [info] > git config --get commit.template [8ms]
+2025-09-14 11:25:02.698 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:25:02.794 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-09-14 11:25:02.812 [info] > git status -z -uall [109ms]
+2025-09-14 11:25:20.532 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:25:20.549 [info] > git config --get commit.template [8ms]
+2025-09-14 11:25:20.551 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:25:20.656 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [66ms]
+2025-09-14 11:25:20.700 [info] > git status -z -uall [144ms]
+2025-09-14 11:25:26.178 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:25:26.193 [info] > git config --get commit.template [8ms]
+2025-09-14 11:25:26.195 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:25:26.289 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [39ms]
+2025-09-14 11:25:26.391 [info] > git status -z -uall [190ms]
+2025-09-14 11:25:31.593 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:25:31.607 [info] > git config --get commit.template [8ms]
+2025-09-14 11:25:31.608 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-09-14 11:25:31.696 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-09-14 11:25:31.782 [info] > git status -z -uall [169ms]
+2025-09-14 11:25:42.481 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:25:42.497 [info] > git config --get commit.template [10ms]
+2025-09-14 11:25:42.500 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:25:42.683 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [83ms]
+2025-09-14 11:25:42.698 [info] > git status -z -uall [192ms]
+2025-09-14 11:27:17.663 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:27:17.752 [info] > git config --get commit.template [79ms]
+2025-09-14 11:27:17.764 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2025-09-14 11:27:17.885 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-09-14 11:27:17.972 [info] > git status -z -uall [200ms]
+2025-09-14 11:27:22.979 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:27:22.988 [info] > git config --get commit.template [3ms]
+2025-09-14 11:27:22.997 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:27:23.097 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:27:23.183 [info] > git status -z -uall [179ms]
+2025-09-14 11:27:28.188 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:27:28.207 [info] > git config --get commit.template [13ms]
+2025-09-14 11:27:28.210 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:27:28.394 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [13ms]
+2025-09-14 11:27:28.411 [info] > git status -z -uall [123ms]
+2025-09-14 11:27:38.560 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:27:38.862 [info] > git config --get commit.template [190ms]
+2025-09-14 11:27:39.051 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [112ms]
+2025-09-14 11:27:39.665 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [112ms]
+2025-09-14 11:27:40.550 [info] > git status -z -uall [1267ms]
+2025-09-14 11:27:46.162 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:27:46.556 [info] > git config --get commit.template [305ms]
+2025-09-14 11:27:47.459 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [489ms]
+2025-09-14 11:27:49.264 [info] > git status -z -uall [698ms]
+2025-09-14 11:27:49.568 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [817ms]
+2025-09-14 11:27:53.264 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:27:54.052 [info] > git config --get commit.template [390ms]
+2025-09-14 11:27:54.373 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [205ms]
+2025-09-14 11:27:55.158 [info] > git status -z -uall [382ms]
+2025-09-14 11:27:55.256 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [374ms]
+2025-09-14 11:27:55.272 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:27:55.357 [info] > git merge-base refs/heads/main refs/remotes/origin/main [87ms]
+2025-09-14 11:27:55.769 [info] > git diff --name-status -z --diff-filter=ADMR 7cec3caaf16d1d468ce8984ba5d73dec8f3171ae...refs/remotes/origin/main [406ms]
+2025-09-14 11:27:55.771 [info] > git config --get commit.template [417ms]
+2025-09-14 11:27:56.151 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [189ms]
+2025-09-14 11:27:56.752 [info] > git status -z -uall [294ms]
+2025-09-14 11:27:56.789 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [233ms]
+2025-09-14 11:28:00.950 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:28:01.085 [info] > git config --get commit.template [92ms]
+2025-09-14 11:28:01.190 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [25ms]
+2025-09-14 11:28:01.491 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [34ms]
+2025-09-14 11:28:01.588 [info] > git status -z -uall [236ms]
+2025-09-14 11:28:01.893 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:28:01.956 [info] > git config --get commit.template [57ms]
+2025-09-14 11:28:01.991 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [23ms]
+2025-09-14 11:28:02.184 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [32ms]
+2025-09-14 11:28:02.283 [info] > git status -z -uall [283ms]
+2025-09-14 11:28:07.288 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:28:07.301 [info] > git config --get commit.template [7ms]
+2025-09-14 11:28:07.303 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:28:07.397 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-09-14 11:28:07.492 [info] > git status -z -uall [184ms]
+2025-09-14 11:28:12.496 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:28:12.509 [info] > git config --get commit.template [8ms]
+2025-09-14 11:28:12.511 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:28:12.592 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-09-14 11:28:12.608 [info] > git status -z -uall [92ms]
+2025-09-14 11:28:26.564 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:28:26.578 [info] > git config --get commit.template [8ms]
+2025-09-14 11:28:26.580 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:28:26.684 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [25ms]
+2025-09-14 11:28:26.753 [info] > git status -z -uall [167ms]
+2025-09-14 11:28:31.757 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:28:31.776 [info] > git config --get commit.template [10ms]
+2025-09-14 11:28:31.776 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:28:31.952 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [70ms]
+2025-09-14 11:28:31.971 [info] > git status -z -uall [185ms]
+2025-09-14 11:28:36.976 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:28:36.991 [info] > git config --get commit.template [7ms]
+2025-09-14 11:28:36.993 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:28:37.190 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [103ms]
+2025-09-14 11:28:37.290 [info] > git status -z -uall [290ms]
+2025-09-14 11:28:46.269 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:28:46.281 [info] > git config --get commit.template [7ms]
+2025-09-14 11:28:46.283 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:28:46.359 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-09-14 11:28:46.401 [info] > git status -z -uall [113ms]
+2025-09-14 11:28:52.374 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:28:52.388 [info] > git config --get commit.template [8ms]
+2025-09-14 11:28:52.388 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:28:52.485 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [25ms]
+2025-09-14 11:28:52.554 [info] > git status -z -uall [161ms]
+2025-09-14 11:29:16.465 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:29:16.481 [info] > git config --get commit.template [8ms]
+2025-09-14 11:29:16.482 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:29:16.583 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [20ms]
+2025-09-14 11:29:16.664 [info] > git status -z -uall [176ms]
+2025-09-14 11:29:39.758 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:29:39.776 [info] > git config --get commit.template [10ms]
+2025-09-14 11:29:39.778 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:29:39.951 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [81ms]
+2025-09-14 11:29:39.969 [info] > git status -z -uall [183ms]
+2025-09-14 11:29:44.974 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:29:44.984 [info] > git config --get commit.template [4ms]
+2025-09-14 11:29:44.992 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:29:45.088 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-09-14 11:29:45.103 [info] > git status -z -uall [105ms]
+2025-09-14 11:29:50.155 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:29:50.173 [info] > git config --get commit.template [11ms]
+2025-09-14 11:29:50.174 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:29:50.283 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [16ms]
+2025-09-14 11:29:50.363 [info] > git status -z -uall [182ms]
+2025-09-14 11:30:08.326 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:30:08.345 [info] > git config --get commit.template [10ms]
+2025-09-14 11:30:08.347 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:30:08.451 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [58ms]
+2025-09-14 11:30:08.503 [info] > git status -z -uall [147ms]
+2025-09-14 11:30:13.965 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:30:13.985 [info] > git config --get commit.template [12ms]
+2025-09-14 11:30:13.987 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-09-14 11:30:14.159 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-09-14 11:30:14.190 [info] > git status -z -uall [194ms]
+2025-09-14 11:30:24.582 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:30:24.596 [info] > git config --get commit.template [8ms]
+2025-09-14 11:30:24.598 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:30:24.699 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-14 11:30:24.788 [info] > git status -z -uall [184ms]
+2025-09-14 11:30:52.543 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:30:52.564 [info] > git config --get commit.template [11ms]
+2025-09-14 11:30:52.566 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-09-14 11:30:52.684 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [16ms]
+2025-09-14 11:30:52.767 [info] > git status -z -uall [194ms]
+2025-09-14 11:30:54.145 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:30:54.163 [info] > git config --get commit.template [10ms]
+2025-09-14 11:30:54.165 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:30:54.287 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [22ms]
+2025-09-14 11:30:54.367 [info] > git status -z -uall [193ms]
+2025-09-14 11:30:57.774 [info] [Git][getWorktreesFS] Worktree detection is disabled, skipping worktree detection
+2025-09-14 11:30:57.795 [info] > git config --get commit.template [11ms]
+2025-09-14 11:30:57.797 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-14 11:30:57.961 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-09-14 11:30:57.997 [info] > git status -z -uall [143ms]

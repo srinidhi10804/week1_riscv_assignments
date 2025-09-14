@@ -1,0 +1,13 @@
+2025-09-14 10:46:27.988 [info] Extension host with pid 549350 started
+2025-09-14 10:46:27.989 [info] Lock '/home/vsysuser/workspace/.vscode-server-oss/data/User/workspaceStorage/655b8ca8/vscode.lock': Lock acquired.
+2025-09-14 10:46:28.685 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-09-14 10:46:29.991 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-09-14 10:46:30.284 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-09-14 10:46:30.285 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-09-14 10:46:32.891 [info] Eager extensions activated
+2025-09-14 10:46:32.891 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-09-14 10:46:32.892 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-09-14 10:46:32.893 [info] ExtensionService#_doActivateExtension vyomasystems.functional-coverage-viewer, startup: false, activationEvent: 'onStartupFinished'
+2025-09-14 10:46:38.494 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-09-14 10:46:38.700 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-09-14 10:57:47.094 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
